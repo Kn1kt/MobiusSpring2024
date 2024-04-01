@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3CAE3192BBB5B1E0064E9F5 /* MobiusSpring2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3182BBB5B1E0064E9F5 /* MobiusSpring2024App.swift */; };
+		F3CAE31B2BBB5B1E0064E9F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE31A2BBB5B1E0064E9F5 /* ContentView.swift */; };
+		F3CAE31D2BBB5B200064E9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CAE31C2BBB5B200064E9F5 /* Assets.xcassets */; };
+		F3CAE3202BBB5B200064E9F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CAE31F2BBB5B200064E9F5 /* Preview Assets.xcassets */; };
+		F3CAE32A2BBB5B200064E9F5 /* MobiusSpring2024Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3292BBB5B200064E9F5 /* MobiusSpring2024Tests.swift */; };
+		F3CAE3342BBB5B200064E9F5 /* MobiusSpring2024UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3332BBB5B200064E9F5 /* MobiusSpring2024UITests.swift */; };
+		F3CAE3362BBB5B200064E9F5 /* MobiusSpring2024UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3352BBB5B200064E9F5 /* MobiusSpring2024UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3CAE3262BBB5B200064E9F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CAE30D2BBB5B1E0064E9F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CAE3142BBB5B1E0064E9F5;
+			remoteInfo = MobiusSpring2024;
+		};
+		F3CAE3302BBB5B200064E9F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CAE30D2BBB5B1E0064E9F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CAE3142BBB5B1E0064E9F5;
+			remoteInfo = MobiusSpring2024;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3CAE3152BBB5B1E0064E9F5 /* MobiusSpring2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiusSpring2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CAE3182BBB5B1E0064E9F5 /* MobiusSpring2024App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusSpring2024App.swift; sourceTree = "<group>"; };
+		F3CAE31A2BBB5B1E0064E9F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3CAE31C2BBB5B200064E9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3CAE31F2BBB5B200064E9F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3CAE3252BBB5B200064E9F5 /* MobiusSpring2024Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiusSpring2024Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CAE3292BBB5B200064E9F5 /* MobiusSpring2024Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusSpring2024Tests.swift; sourceTree = "<group>"; };
+		F3CAE32F2BBB5B200064E9F5 /* MobiusSpring2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiusSpring2024UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CAE3332BBB5B200064E9F5 /* MobiusSpring2024UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusSpring2024UITests.swift; sourceTree = "<group>"; };
+		F3CAE3352BBB5B200064E9F5 /* MobiusSpring2024UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusSpring2024UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3CAE3122BBB5B1E0064E9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CAE3222BBB5B200064E9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CAE32C2BBB5B200064E9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3CAE30C2BBB5B1E0064E9F5 = {
+			isa = PBXGroup;
+			children = (
+				F3CAE3172BBB5B1E0064E9F5 /* MobiusSpring2024 */,
+				F3CAE3282BBB5B200064E9F5 /* MobiusSpring2024Tests */,
+				F3CAE3322BBB5B200064E9F5 /* MobiusSpring2024UITests */,
+				F3CAE3162BBB5B1E0064E9F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CAE3162BBB5B1E0064E9F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CAE3152BBB5B1E0064E9F5 /* MobiusSpring2024.app */,
+				F3CAE3252BBB5B200064E9F5 /* MobiusSpring2024Tests.xctest */,
+				F3CAE32F2BBB5B200064E9F5 /* MobiusSpring2024UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CAE3172BBB5B1E0064E9F5 /* MobiusSpring2024 */ = {
+			isa = PBXGroup;
+			children = (
+				F3CAE3182BBB5B1E0064E9F5 /* MobiusSpring2024App.swift */,
+				F3CAE31A2BBB5B1E0064E9F5 /* ContentView.swift */,
+				F3CAE31C2BBB5B200064E9F5 /* Assets.xcassets */,
+				F3CAE31E2BBB5B200064E9F5 /* Preview Content */,
+			);
+			path = MobiusSpring2024;
+			sourceTree = "<group>";
+		};
+		F3CAE31E2BBB5B200064E9F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3CAE31F2BBB5B200064E9F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3CAE3282BBB5B200064E9F5 /* MobiusSpring2024Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CAE3292BBB5B200064E9F5 /* MobiusSpring2024Tests.swift */,
+			);
+			path = MobiusSpring2024Tests;
+			sourceTree = "<group>";
+		};
+		F3CAE3322BBB5B200064E9F5 /* MobiusSpring2024UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CAE3332BBB5B200064E9F5 /* MobiusSpring2024UITests.swift */,
+				F3CAE3352BBB5B200064E9F5 /* MobiusSpring2024UITestsLaunchTests.swift */,
+			);
+			path = MobiusSpring2024UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3CAE3142BBB5B1E0064E9F5 /* MobiusSpring2024 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CAE3392BBB5B200064E9F5 /* Build configuration list for PBXNativeTarget "MobiusSpring2024" */;
+			buildPhases = (
+				F3CAE3112BBB5B1E0064E9F5 /* Sources */,
+				F3CAE3122BBB5B1E0064E9F5 /* Frameworks */,
+				F3CAE3132BBB5B1E0064E9F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobiusSpring2024;
+			productName = MobiusSpring2024;
+			productReference = F3CAE3152BBB5B1E0064E9F5 /* MobiusSpring2024.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3CAE3242BBB5B200064E9F5 /* MobiusSpring2024Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CAE33C2BBB5B200064E9F5 /* Build configuration list for PBXNativeTarget "MobiusSpring2024Tests" */;
+			buildPhases = (
+				F3CAE3212BBB5B200064E9F5 /* Sources */,
+				F3CAE3222BBB5B200064E9F5 /* Frameworks */,
+				F3CAE3232BBB5B200064E9F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CAE3272BBB5B200064E9F5 /* PBXTargetDependency */,
+			);
+			name = MobiusSpring2024Tests;
+			productName = MobiusSpring2024Tests;
+			productReference = F3CAE3252BBB5B200064E9F5 /* MobiusSpring2024Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3CAE32E2BBB5B200064E9F5 /* MobiusSpring2024UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CAE33F2BBB5B200064E9F5 /* Build configuration list for PBXNativeTarget "MobiusSpring2024UITests" */;
+			buildPhases = (
+				F3CAE32B2BBB5B200064E9F5 /* Sources */,
+				F3CAE32C2BBB5B200064E9F5 /* Frameworks */,
+				F3CAE32D2BBB5B200064E9F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CAE3312BBB5B200064E9F5 /* PBXTargetDependency */,
+			);
+			name = MobiusSpring2024UITests;
+			productName = MobiusSpring2024UITests;
+			productReference = F3CAE32F2BBB5B200064E9F5 /* MobiusSpring2024UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CAE30D2BBB5B1E0064E9F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F3CAE3142BBB5B1E0064E9F5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F3CAE3242BBB5B200064E9F5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F3CAE3142BBB5B1E0064E9F5;
+					};
+					F3CAE32E2BBB5B200064E9F5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F3CAE3142BBB5B1E0064E9F5;
+					};
+				};
+			};
+			buildConfigurationList = F3CAE3102BBB5B1E0064E9F5 /* Build configuration list for PBXProject "MobiusSpring2024" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3CAE30C2BBB5B1E0064E9F5;
+			productRefGroup = F3CAE3162BBB5B1E0064E9F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3CAE3142BBB5B1E0064E9F5 /* MobiusSpring2024 */,
+				F3CAE3242BBB5B200064E9F5 /* MobiusSpring2024Tests */,
+				F3CAE32E2BBB5B200064E9F5 /* MobiusSpring2024UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3CAE3132BBB5B1E0064E9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CAE3202BBB5B200064E9F5 /* Preview Assets.xcassets in Resources */,
+				F3CAE31D2BBB5B200064E9F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CAE3232BBB5B200064E9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CAE32D2BBB5B200064E9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3CAE3112BBB5B1E0064E9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CAE31B2BBB5B1E0064E9F5 /* ContentView.swift in Sources */,
+				F3CAE3192BBB5B1E0064E9F5 /* MobiusSpring2024App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CAE3212BBB5B200064E9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CAE32A2BBB5B200064E9F5 /* MobiusSpring2024Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CAE32B2BBB5B200064E9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CAE3362BBB5B200064E9F5 /* MobiusSpring2024UITestsLaunchTests.swift in Sources */,
+				F3CAE3342BBB5B200064E9F5 /* MobiusSpring2024UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3CAE3272BBB5B200064E9F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CAE3142BBB5B1E0064E9F5 /* MobiusSpring2024 */;
+			targetProxy = F3CAE3262BBB5B200064E9F5 /* PBXContainerItemProxy */;
+		};
+		F3CAE3312BBB5B200064E9F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CAE3142BBB5B1E0064E9F5 /* MobiusSpring2024 */;
+			targetProxy = F3CAE3302BBB5B200064E9F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3CAE3372BBB5B200064E9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3CAE3382BBB5B200064E9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3CAE33A2BBB5B200064E9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobiusSpring2024/Preview Content\"";
+				DEVELOPMENT_TEAM = S3VU6ZS73B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-ffbf34e59aaef63.MobiusSpring2024";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3CAE33B2BBB5B200064E9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobiusSpring2024/Preview Content\"";
+				DEVELOPMENT_TEAM = S3VU6ZS73B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-ffbf34e59aaef63.MobiusSpring2024";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3CAE33D2BBB5B200064E9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3VU6ZS73B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-ffbf34e59aaef63.MobiusSpring2024Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiusSpring2024.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobiusSpring2024";
+			};
+			name = Debug;
+		};
+		F3CAE33E2BBB5B200064E9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3VU6ZS73B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-ffbf34e59aaef63.MobiusSpring2024Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiusSpring2024.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobiusSpring2024";
+			};
+			name = Release;
+		};
+		F3CAE3402BBB5B200064E9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3VU6ZS73B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-ffbf34e59aaef63.MobiusSpring2024UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobiusSpring2024;
+			};
+			name = Debug;
+		};
+		F3CAE3412BBB5B200064E9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3VU6ZS73B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-ffbf34e59aaef63.MobiusSpring2024UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobiusSpring2024;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3CAE3102BBB5B1E0064E9F5 /* Build configuration list for PBXProject "MobiusSpring2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CAE3372BBB5B200064E9F5 /* Debug */,
+				F3CAE3382BBB5B200064E9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CAE3392BBB5B200064E9F5 /* Build configuration list for PBXNativeTarget "MobiusSpring2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CAE33A2BBB5B200064E9F5 /* Debug */,
+				F3CAE33B2BBB5B200064E9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CAE33C2BBB5B200064E9F5 /* Build configuration list for PBXNativeTarget "MobiusSpring2024Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CAE33D2BBB5B200064E9F5 /* Debug */,
+				F3CAE33E2BBB5B200064E9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CAE33F2BBB5B200064E9F5 /* Build configuration list for PBXNativeTarget "MobiusSpring2024UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CAE3402BBB5B200064E9F5 /* Debug */,
+				F3CAE3412BBB5B200064E9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3CAE30D2BBB5B1E0064E9F5 /* Project object */;
+}
