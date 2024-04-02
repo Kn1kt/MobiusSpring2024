@@ -2,20 +2,26 @@
 //  ContentView.swift
 //  MobiusSpring2024
 //
-//  Created by Nikita Konashenko on 02.04.2024.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+    @State private var state = LevelBuilder.shared
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            state.buildView(for: state.currentLevel)
+                .ignoresSafeArea()
+                .navigationTitle("\(state.currentLevel)")
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar {
+                    ToolbarItem(placement: .cancellationAction) {
+                        Button("Reset", systemImage: "arrow.circlepath", role: .cancel) {
+                            state.currentLevel = 0
+                        }
+                    }
+                }
         }
-        .padding()
     }
 }
 

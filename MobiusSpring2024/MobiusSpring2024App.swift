@@ -2,8 +2,6 @@
 //  MobiusSpring2024App.swift
 //  MobiusSpring2024
 //
-//  Created by Nikita Konashenko on 02.04.2024.
-//
 
 import SwiftUI
 
