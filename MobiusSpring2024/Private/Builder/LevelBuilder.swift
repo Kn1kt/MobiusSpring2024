@@ -32,6 +32,9 @@ final class LevelBuilder {
             
         case 3:
             AnyScreenLevel(controller: ScreenViewController_3())
+        
+        case 4:
+            AnyScreenLevel(controller: ScreenViewController_4())
             
         default:
             FinishSwiftUIView()
