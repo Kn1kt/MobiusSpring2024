@@ -22,6 +22,6 @@ final class ScreenViewController_3: BaseScreenViewController {
         backgroundLayer.frame = view.bounds
         backgroundLayer.backgroundColor = UIColor.systemBackground.cgColor
         
-        view.layer.addSublayer(backgroundLayer)
+//        view.layer.addSublayer(backgroundLayer)
     }
 }

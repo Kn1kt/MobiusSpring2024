@@ -18,22 +18,22 @@ final class LevelBuilder {
         }
     }
     
+    @ObservationIgnored
+    private lazy var levels: [UIViewController] = {
+        let action: () -> Void = { [weak self] in self?.currentLevel += 1 }
+        return [
+            UIViewController(),  // empty controller
+            BestIosQuestionViewController(action: action)
+        ]
+    }()
+    
     @ViewBuilder
     func buildView(for level: Int) -> some View {
-        switch level {
-        case 0: 
+        if level == 0 {
             StartSwiftUIView()
-            
-        case 1:
-            AnyScreenLevel(controller: ScreenViewController_1())
-            
-        case 2:
-            AnyScreenLevel(controller: ScreenViewController_2())
-            
-        case 3:
-            AnyScreenLevel(controller: ScreenViewController_3())
-            
-        default:
+        } else if let controller = levels[safe: level]  {
+            AnyScreenLevel(controller: controller)
+        } else {
             FinishSwiftUIView()
         }
     }
@@ -45,4 +45,10 @@ private struct AnyScreenLevel: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UIViewController { controller }
     
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
+}
+
+extension Array {
+    subscript(safe index: Int) -> Element? {
+        get { return index < count ? self[index] : nil }
+    }
 }
