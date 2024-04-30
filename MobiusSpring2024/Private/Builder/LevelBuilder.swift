@@ -13,28 +13,35 @@ final class LevelBuilder {
     
     var currentLevel: Int = UserDefaults.standard.integer(forKey: "LevelBuilder.CurrentLevelKey") {
         didSet {
-//            let maxLevel = max(currentLevel, oldValue)
+            guard currentLevel == oldValue + 1 || currentLevel == 0 else { return }
             UserDefaults.standard.setValue(currentLevel, forKey: "LevelBuilder.CurrentLevelKey")
         }
     }
     
     @ObservationIgnored
-    private lazy var levels: [UIViewController] = {
-        let action: () -> Void = { [weak self] in self?.currentLevel += 1 }
+    private static let levels: [UIViewController] = {
+        let action: () -> Void = { LevelBuilder.shared.currentLevel += 1 }
+        
         return [
             UIViewController(),  // empty controller
-            BestIosQuestionViewController(action: action)
+            BestIosQuestionViewController(action: action),
         ]
     }()
     
     @ViewBuilder
     func buildView(for level: Int) -> some View {
-        if level == 0 {
+        if level == .zero {
             StartSwiftUIView()
-        } else if let controller = levels[safe: level]  {
+                .transition(.blurReplace)
+            
+        } else if let controller = Self.levels[safe: level] {
             AnyScreenLevel(controller: controller)
+                .id(level)
+                .transition(.push(from: .trailing))
+            
         } else {
             FinishSwiftUIView()
+                .transition(.blurReplace)
         }
     }
 }
@@ -45,10 +52,4 @@ private struct AnyScreenLevel: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UIViewController { controller }
     
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
-}
-
-extension Array {
-    subscript(safe index: Int) -> Element? {
-        get { return index < count ? self[index] : nil }
-    }
 }

@@ -10,17 +10,20 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            state.buildView(for: state.currentLevel)
-                .ignoresSafeArea()
-                .navigationTitle("\(state.currentLevel)")
-                .navigationBarTitleDisplayMode(.inline)
-                .toolbar {
-                    ToolbarItem(placement: .cancellationAction) {
-                        Button("Reset", systemImage: "arrow.circlepath", role: .cancel) {
-                            state.currentLevel = 0
+            ZStack {
+                state.buildView(for: state.currentLevel)
+                    .ignoresSafeArea()
+                    .navigationTitle("\(state.currentLevel)")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbar {
+                        ToolbarItem(placement: .cancellationAction) {
+                            Button("Reset", systemImage: "arrow.circlepath", role: .cancel) {
+                                state.currentLevel = 0
+                            }
                         }
                     }
-                }
+            }
+            .animation(.default, value: state.currentLevel)
         }
     }
 }
