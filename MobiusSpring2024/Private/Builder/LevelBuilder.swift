@@ -24,8 +24,8 @@ final class LevelBuilder {
         
         return [
             UIViewController(),  // empty controller
+            UIHostingController(rootView: Screen6View(action: action)),
             BestIosQuestionViewController(action: action),
-            UIHostingController(rootView: Screen6View(action: action))
         ]
     }()
     

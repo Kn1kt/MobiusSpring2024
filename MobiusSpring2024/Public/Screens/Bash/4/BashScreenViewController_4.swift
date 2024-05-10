@@ -2,8 +2,6 @@
 //  BashScreenViewController_4.swift
 //  MobiusSpring2024
 //
-//  Created by Bashir Arslanaliev on 06.04.2024.
-//
 
 import UIKit
 
