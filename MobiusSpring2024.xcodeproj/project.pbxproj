@@ -11,6 +11,7 @@
 		2F5B21E22BC1E109000F4648 /* BashScreenViewController_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B21E12BC1E109000F4648 /* BashScreenViewController_4.swift */; };
 		2F5B21EA2BC1E8EE000F4648 /* BashScreenViewController_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B21E92BC1E8EE000F4648 /* BashScreenViewController_5.swift */; };
 		2F8E3FD62BCEB05400081277 /* BestIosQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E3FD52BCEB05400081277 /* BestIosQuestion.swift */; };
+		B814E3342BF1162B00449E42 /* ScreenViewController_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814E3332BF1162B00449E42 /* ScreenViewController_7.swift */; };
 		F35F82FA2BEEAD45006B39AC /* ScreenViewController_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F82F92BEEAD45006B39AC /* ScreenViewController_5.swift */; };
 		F35F84352BEEB138006B39AC /* AnyShapeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F84342BEEB138006B39AC /* AnyShapeAnimation.swift */; };
 		F35F84372BEEB14B006B39AC /* ShapePropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F84362BEEB14B006B39AC /* ShapePropertyAnimation.swift */; };
@@ -73,6 +74,7 @@
 		2F5B21E12BC1E109000F4648 /* BashScreenViewController_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BashScreenViewController_4.swift; sourceTree = "<group>"; };
 		2F5B21E92BC1E8EE000F4648 /* BashScreenViewController_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BashScreenViewController_5.swift; sourceTree = "<group>"; };
 		2F8E3FD52BCEB05400081277 /* BestIosQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestIosQuestion.swift; sourceTree = "<group>"; };
+		B814E3332BF1162B00449E42 /* ScreenViewController_7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_7.swift; sourceTree = "<group>"; };
 		F35F82F92BEEAD45006B39AC /* ScreenViewController_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_5.swift; sourceTree = "<group>"; };
 		F35F84342BEEB138006B39AC /* AnyShapeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyShapeAnimation.swift; sourceTree = "<group>"; };
 		F35F84362BEEB14B006B39AC /* ShapePropertyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapePropertyAnimation.swift; sourceTree = "<group>"; };
@@ -188,6 +190,14 @@
 				2F8E3FD52BCEB05400081277 /* BestIosQuestion.swift */,
 			);
 			path = LoginQuestions;
+			sourceTree = "<group>";
+		};
+		B814E3322BF115DA00449E42 /* hharrold */ = {
+			isa = PBXGroup;
+			children = (
+				B814E3332BF1162B00449E42 /* ScreenViewController_7.swift */,
+			);
+			path = hharrold;
 			sourceTree = "<group>";
 		};
 		F35F82F82BEEAD2B006B39AC /* 5 */ = {
@@ -393,6 +403,7 @@
 		F3CAE3592BBB65320064E9F5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				B814E3322BF115DA00449E42 /* hharrold */,
 				2904B15E2BEA849100953EEE /* MultX */,
 				F36FA2462BDEDED30060BF8C /* Kn1kt */,
 				2F5B21DF2BC1E0FA000F4648 /* Bash */,
@@ -586,6 +597,7 @@
 				F35F84372BEEB14B006B39AC /* ShapePropertyAnimation.swift in Sources */,
 				F35F84392BEEB1E6006B39AC /* ScaleShapeAnimation.swift in Sources */,
 				2F8E3FD62BCEB05400081277 /* BestIosQuestion.swift in Sources */,
+				B814E3342BF1162B00449E42 /* ScreenViewController_7.swift in Sources */,
 				F3CAE3572BBB644D0064E9F5 /* ScreenViewController_1.swift in Sources */,
 				F35F84412BEEB354006B39AC /* RotateShapeAnimation.swift in Sources */,
 				F3CAE4942BBC4DA40064E9F5 /* ScreenViewController_3.swift in Sources */,
