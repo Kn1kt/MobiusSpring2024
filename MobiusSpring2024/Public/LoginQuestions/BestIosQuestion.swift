@@ -2,8 +2,6 @@
 //  BestIosQuestion.swift
 //  MobiusSpring2024
 //
-//  Created by Bashir Arslanaliev on 16.04.2024.
-//
 
 import UIKit
 
