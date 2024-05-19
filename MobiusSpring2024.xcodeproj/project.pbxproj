@@ -12,6 +12,7 @@
 		2F5B21EA2BC1E8EE000F4648 /* BashScreenViewController_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B21E92BC1E8EE000F4648 /* BashScreenViewController_5.swift */; };
 		2F8E3FD62BCEB05400081277 /* BestIosQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E3FD52BCEB05400081277 /* BestIosQuestion.swift */; };
 		B814E3342BF1162B00449E42 /* ScreenViewController_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814E3332BF1162B00449E42 /* ScreenViewController_7.swift */; };
+		A7BAF09C2BF4098000A4A177 /* ArinaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAF09B2BF4098000A4A177 /* ArinaScreen.swift */; };
 		F35F82FA2BEEAD45006B39AC /* ScreenViewController_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F82F92BEEAD45006B39AC /* ScreenViewController_5.swift */; };
 		F35F84352BEEB138006B39AC /* AnyShapeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F84342BEEB138006B39AC /* AnyShapeAnimation.swift */; };
 		F35F84372BEEB14B006B39AC /* ShapePropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F84362BEEB14B006B39AC /* ShapePropertyAnimation.swift */; };
@@ -75,6 +76,7 @@
 		2F5B21E92BC1E8EE000F4648 /* BashScreenViewController_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BashScreenViewController_5.swift; sourceTree = "<group>"; };
 		2F8E3FD52BCEB05400081277 /* BestIosQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestIosQuestion.swift; sourceTree = "<group>"; };
 		B814E3332BF1162B00449E42 /* ScreenViewController_7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_7.swift; sourceTree = "<group>"; };
+		A7BAF09B2BF4098000A4A177 /* ArinaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArinaScreen.swift; sourceTree = "<group>"; };
 		F35F82F92BEEAD45006B39AC /* ScreenViewController_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_5.swift; sourceTree = "<group>"; };
 		F35F84342BEEB138006B39AC /* AnyShapeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyShapeAnimation.swift; sourceTree = "<group>"; };
 		F35F84362BEEB14B006B39AC /* ShapePropertyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapePropertyAnimation.swift; sourceTree = "<group>"; };
@@ -198,6 +200,12 @@
 				B814E3332BF1162B00449E42 /* ScreenViewController_7.swift */,
 			);
 			path = hharrold;
+		A7BAF09A2BF4096500A4A177 /* Omgitsarina */ = {
+			isa = PBXGroup;
+			children = (
+				A7BAF09B2BF4098000A4A177 /* ArinaScreen.swift */,
+			);
+			path = Omgitsarina;
 			sourceTree = "<group>";
 		};
 		F35F82F82BEEAD2B006B39AC /* 5 */ = {
@@ -404,6 +412,7 @@
 			isa = PBXGroup;
 			children = (
 				B814E3322BF115DA00449E42 /* hharrold */,
+				A7BAF09A2BF4096500A4A177 /* Omgitsarina */,
 				2904B15E2BEA849100953EEE /* MultX */,
 				F36FA2462BDEDED30060BF8C /* Kn1kt */,
 				2F5B21DF2BC1E0FA000F4648 /* Bash */,
@@ -616,6 +625,7 @@
 				F3CAE34C2BBB5CF20064E9F5 /* BaseScreenViewController.swift in Sources */,
 				2F5B21E22BC1E109000F4648 /* BashScreenViewController_4.swift in Sources */,
 				2F5B21EA2BC1E8EE000F4648 /* BashScreenViewController_5.swift in Sources */,
+				A7BAF09C2BF4098000A4A177 /* ArinaScreen.swift in Sources */,
 				F35F84352BEEB138006B39AC /* AnyShapeAnimation.swift in Sources */,
 				F3CAE3442BBB5B490064E9F5 /* TapMeButton.swift in Sources */,
 				F36FA2452BDEDEA40060BF8C /* Collection+Extensions.swift in Sources */,
