@@ -19,7 +19,7 @@ final class ScreenViewController_3: BaseScreenViewController {
     private let notchStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .horizontal
-        stackView.spacing = 15
+        stackView.spacing = 20
         stackView.alignment = .center
         stackView.distribution = .equalCentering
         return stackView
@@ -58,8 +58,8 @@ final class ScreenViewController_3: BaseScreenViewController {
         self.levelTitle.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             self.levelTitle.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
-            self.levelTitle.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 20),
-            self.levelTitle.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -20),
+            self.levelTitle.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor),
+            self.levelTitle.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor),
             self.levelTitle.heightAnchor.constraint(equalToConstant: 60)
         ])
 
@@ -76,8 +76,8 @@ final class ScreenViewController_3: BaseScreenViewController {
         NSLayoutConstraint.activate([
             self.notchStackView.heightAnchor.constraint(equalToConstant: 100),
             self.notchStackView.centerYAnchor.constraint(equalTo: self.levelView.centerYAnchor),
-            self.notchStackView.leadingAnchor.constraint(equalTo: self.levelView.leadingAnchor, constant: 20),
-            self.notchStackView.trailingAnchor.constraint(equalTo: self.levelView.trailingAnchor, constant: -20)
+            self.notchStackView.leadingAnchor.constraint(equalTo: self.levelView.leadingAnchor, constant: 40),
+            self.notchStackView.trailingAnchor.constraint(equalTo: self.levelView.trailingAnchor, constant: 40)
         ])
 
         for i in 1 ... Constants.diceCount {

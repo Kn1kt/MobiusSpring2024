@@ -2,8 +2,6 @@
 //  MobiusSpring2024UITestsLaunchTests.swift
 //  MobiusSpring2024UITests
 //
-//  Created by Nikita Konashenko on 02.04.2024.
-//
 
 import XCTest
 

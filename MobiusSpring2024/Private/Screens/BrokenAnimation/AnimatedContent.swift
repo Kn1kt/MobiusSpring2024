@@ -5,18 +5,38 @@
 
 import UIKit
 
-struct AnimatedContainer {
-    let boundsSize: CGSize
-    let animatedShapes: [AnimatedShape]
+public struct AnimatedContent {
+    public static let zero: Self = .init(number: 0)
+    public static let one: Self = .init(number: 1)
+    public static let two: Self = .init(number: 2)
+    public static let three: Self = .init(number: 3)
+    public static let four: Self = .init(number: 4)
+    public static let five: Self = .init(number: 5)
+    public static let six: Self = .init(number: 6)
+    public static let seven: Self = .init(number: 7)
+    public static let eight: Self = .init(number: 8)
+    public static let nine: Self = .init(number: 9)
+    public static let ten: Self = .init(number: 10)
     
-    init(strings: [String]) {
+    public let boundsSize: CGSize
+    public let shapes: [AnimatedShape]
+    
+    private init(number: Int) {
+        let url = Bundle.main.url(forResource: "\(number)", withExtension: "txt")!
+        let data = try! Data(contentsOf: url)
+        let string = String(data: data, encoding: .utf8)!
+        
+        self.init(strings: string.split(separator: "\n").map { String($0) })
+    }
+    
+    public init(strings: [String]) {
         let boundsSizeComponents = strings[0].split(separator: " ")
         self.boundsSize = CGSize(width: Double(boundsSizeComponents[0])!, height: Double(boundsSizeComponents[1])!)
         
         let shapesCount = Int(strings[1])!
         var currentIndex = 2
         
-        self.animatedShapes = (0 ..< shapesCount).map { _ in
+        self.shapes = (0 ..< shapesCount).map { _ in
             let shape = strings[currentIndex]
             let animationsCount = Int(strings[currentIndex + 1])!
             let animationsIndex = currentIndex + 2
@@ -29,19 +49,19 @@ struct AnimatedContainer {
     }
 }
 
-extension AnimatedContainer {
-    struct AnimatedShape {
-        let position: CGPoint
-        let boundsSize: CGSize
-        let cornerRadius: CGFloat
+extension AnimatedContent {
+    public struct AnimatedShape {
+        public let position: CGPoint
+        public let boundsSize: CGSize
+        public let cornerRadius: CGFloat
         
-        let rotationAngle: CGFloat
+        public let rotationAngle: CGFloat
         
-        let color: UIColor
+        public let color: UIColor
         
-        let animations: Set<AnyShapeAnimation>
+        public let animations: Set<AnyShapeAnimation>
         
-        init(shape: String, animations: [String]) {
+        public init(shape: String, animations: [String]) {
             let shapeComponents = shape.split(separator: " ")
             let type = shapeComponents[0]
             

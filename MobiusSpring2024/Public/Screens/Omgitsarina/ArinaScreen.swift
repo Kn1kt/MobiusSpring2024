@@ -2,8 +2,7 @@
 //  ArinaScreen.swift
 //  MobiusSpring2024
 //
-//  Created by Arina Bykova on 15.05.2024.
-//
+
 
 import SwiftUI
 
@@ -34,9 +33,10 @@ struct ArinaScreenView: View {
             Spacer()
             
             Button {
-                if birthDate == Date(timeIntervalSince1970: .zero) {
-                    action()
-                }
+                let year = Calendar.current.component(.year, from: birthDate)
+                let currentYear = Calendar.current.component(.year, from: .now)
+                guard currentYear - year >= 18 else { return }
+                action()
             } label: {
                 Text("OK")
                     .frame(maxWidth: .infinity)

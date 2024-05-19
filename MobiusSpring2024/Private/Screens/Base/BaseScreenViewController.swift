@@ -8,7 +8,7 @@ import SwiftUI
 
 class BaseScreenViewController: UIViewController {
     lazy private(set) var tapMeButton: UIButton = {
-        let button = TapMeButton(level: level)
+        let button = TapMeButton(action: action)
         
         button.frame.size = button.intrinsicContentSize
         button.center = .init(x: view.bounds.midX, y: view.bounds.midY)
@@ -16,7 +16,12 @@ class BaseScreenViewController: UIViewController {
         return button
     }()
     
-    init() { super.init(nibName: nil, bundle: nil) }
+    private let action: () -> Void
+    
+    init(action: @escaping () -> Void) {
+        self.action = action
+        super.init(nibName: nil, bundle: nil)
+    }
     
     @available(*, unavailable)
     required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
@@ -30,7 +35,7 @@ class BaseScreenViewController: UIViewController {
 
 class BaseScrenViewController: UIViewController {
     lazy private(set) var tapMeButton: UIButton = {
-        let button = TapMeButton(level: level)
+        let button = TapMeButton(action: action)
         
         button.frame.size = button.intrinsicContentSize
         button.center = .init(x: view.bounds.midX, y: view.bounds.midY)
@@ -38,7 +43,12 @@ class BaseScrenViewController: UIViewController {
         return button
     }()
     
-    init() { super.init(nibName: nil, bundle: nil) }
+    private let action: () -> Void
+    
+    init(action: @escaping () -> Void) {
+        self.action = action
+        super.init(nibName: nil, bundle: nil)
+    }
     
     @available(*, unavailable)
     required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }

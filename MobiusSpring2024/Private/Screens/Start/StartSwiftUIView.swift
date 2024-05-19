@@ -8,16 +8,19 @@ import SwiftUI
 struct StartSwiftUIView: View {
     var body: some View {
         VStack {
-            Text("Hello, World!")
-                .font(.largeTitle)
+            Text("Подтвердите, что вы не робот, ответив на пару простых вопрсов")
+                .font(.title)
                 .bold()
+                .multilineTextAlignment(.center)
             
-            Button("Press Me to Start!") {
+            Button("Начать!") {
                 LevelBuilder.shared.currentLevel = 1
             }
             .buttonStyle(.bordered)
-            .font(.title)
+            .font(.title2)
+            .bold()
         }
+        .padding()
     }
 }
 

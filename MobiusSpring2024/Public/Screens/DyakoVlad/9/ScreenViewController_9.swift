@@ -2,8 +2,6 @@
 //  ScreenViewController_9.swift
 //  MobiusSpring2024
 //
-//  Created by Vladislav Diakov on 15.05.2024.
-//
 
 import UIKit
 
@@ -33,7 +31,7 @@ final class ScreenViewController_9: BaseScreenViewController {
 
     private func setupSubviews() {
         let patternView = PatternView(frame: self.view.frame)
-        patternView.backgroundColor = .white
+        patternView.backgroundColor = .systemBackground
         patternView.delegate = self
         self.view.addSubview(patternView)
 

@@ -2,8 +2,6 @@
 //  MobiusSpring2024Tests.swift
 //  MobiusSpring2024Tests
 //
-//  Created by Nikita Konashenko on 02.04.2024.
-//
 
 import XCTest
 @testable import MobiusSpring2024

@@ -2,8 +2,6 @@
 //  PatternView.swift
 //  MobiusSpring2024
 //
-//  Created by Vladislav Diakov on 15.05.2024.
-//
 
 import UIKit
 
@@ -41,30 +39,32 @@ final class PatternView: UIView {
                 let x = startX + CGFloat(col) * (dotSize + padding)
                 let y = startY + CGFloat(row) * (dotSize + padding)
                 let dotView = UIView(frame: CGRect(x: x, y: y, width: dotSize, height: dotSize))
-                dotView.backgroundColor = .lightGray
+                
+                self.addSubview(dotView)
+                self.dotViews.append(dotView)
+                
+                dotView.backgroundColor = .secondarySystemBackground
                 dotView.layer.cornerRadius = dotSize / 2
                 dotView.layer.masksToBounds = true
+                dotView.layer.isGeometryFlipped = true
+                dotView.layer.superlayer?.isGeometryFlipped = true
                 dotView.tag = row * self.gridSize + col + 1
 
                 let label = UILabel(frame: dotView.bounds)
                 label.text = "\(dotView.tag)"
                 label.font = .systemFont(ofSize: 24, weight: .semibold)
                 label.textAlignment = .center
-                label.textColor = .black
                 dotView.addSubview(label)
-
-                self.addSubview(dotView)
-                self.dotViews.append(dotView)
             }
         }
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
-            let point = touch.location(in: self)
+            let point = touch.location(in: nil)
             if let dotView = self.dotViewAtPoint(point), !self.selectedDotViews.contains(dotView) {
                 selectedDotViews.append(dotView)
-                dotView.backgroundColor = .orange
+                dotView.backgroundColor = .tintColor
                 self.setNeedsDisplay()
             }
         }
@@ -72,11 +72,11 @@ final class PatternView: UIView {
 
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
-            let point = touch.location(in: self)
+            let point = touch.location(in: nil)
             self.currentPoint = point
             if let dotView = self.dotViewAtPoint(point), !self.selectedDotViews.contains(dotView) {
                 self.selectedDotViews.append(dotView)
-                dotView.backgroundColor = .orange
+                dotView.backgroundColor = .tintColor
             }
             self.setNeedsDisplay()
         }
@@ -96,7 +96,7 @@ final class PatternView: UIView {
     override func draw(_ rect: CGRect) {
         guard let context = UIGraphicsGetCurrentContext() else { return }
 
-        context.setStrokeColor(UIColor.orange.cgColor)
+        context.setStrokeColor(UIColor.tintColor.cgColor)
         context.setLineWidth(5)
 
         if self.selectedDotViews.isEmpty { return }
@@ -120,7 +120,7 @@ final class PatternView: UIView {
 
     private func resetPattern() {
         for dotView in self.selectedDotViews {
-            dotView.backgroundColor = .lightGray
+            dotView.backgroundColor = .secondarySystemBackground
         }
         self.selectedDotViews.removeAll()
         self.setNeedsDisplay()

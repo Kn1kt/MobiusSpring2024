@@ -2,8 +2,6 @@
 //  ScreenViewController_7.swift
 //  MobiusSpring2024
 //
-//  Created by Evgeniy Kozyrev on 12.05.2024.
-//
 
 import Foundation
 import UIKit
@@ -13,6 +11,7 @@ final class ScreenViewController_7: BaseScreenViewController {
         let titleView = UILabel()
         self.view.addSubview(titleView)
         titleView.text = Constants.title
+        titleView.numberOfLines = 0
         titleView.textAlignment = .center
         return titleView
     }()
@@ -110,5 +109,5 @@ private enum Constants {
 
     static let backgroundImage = UIImage(systemName: "trash.fill")
     static let slideImage = UIImage(systemName: "trash")
-    static let title = "Докажи что не робот"
+    static let title = "Подтвердите, что вы не робот\nСопоставьте изображения"
 }

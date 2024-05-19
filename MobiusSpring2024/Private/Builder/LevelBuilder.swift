@@ -24,10 +24,19 @@ final class LevelBuilder {
         
         return [
             UIViewController(),  // empty controller
+            ScreenViewController_1(action: action),
             UIHostingController(rootView: ArinaScreenView(action: action)),
-            ScreenViewController_5(),
-            UIHostingController(rootView: Screen6View(action: action)),
             BestIosQuestionViewController(action: action),
+            ScreenViewController_7(action: action),
+            ScreenViewController_3(action: action),
+            ScreenViewController_9(action: action),
+            UIHostingController(rootView: Screen6View(action: action)),
+            UIHostingController(
+                rootView: AnimatedCaptchaContentView(animatedContent: .ten) { text in
+                    guard text.lowercased() == "you are awesome" else { return }
+                    action()
+                }
+            ),
         ]
     }()
     

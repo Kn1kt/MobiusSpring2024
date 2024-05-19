@@ -5,13 +5,13 @@
 
 import UIKit
 
-final class AnimatedLayer: CALayer {
+public final class AnimatedLayer: CALayer {
     private(set) var isPaused: Bool = false
     private var originSpeed: Float = 1.0
     
     override public func action(forKey _: String) -> (any CAAction)? { NSNull() }
     
-    func pauseAnimations() {
+    public func pauseAnimations() {
         guard !isPaused else { return }
         defer { isPaused = true }
 
@@ -22,7 +22,7 @@ final class AnimatedLayer: CALayer {
         timeOffset = pausedTime
     }
 
-    func resumeAnimations() {
+    public func resumeAnimations() {
         guard isPaused else { return }
         defer { isPaused = false }
 
@@ -38,7 +38,8 @@ final class AnimatedLayer: CALayer {
 }
 
 private extension AnimatedLayer {
-    @inline(__always) var currentLocalTime: CFTimeInterval { convertToLocalTime(CACurrentMediaTime()) }
+    @inline(__always) 
+    var currentLocalTime: CFTimeInterval { convertToLocalTime(CACurrentMediaTime()) }
 
     @inline(__always)
     func convertToLocalDuration(_ duration: CFTimeInterval) -> CFTimeInterval {

@@ -62,6 +62,11 @@ final class BestIosQuestionViewController: UIViewController {
         activateConstraints()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        answerField.becomeFirstResponder()
+    }
+    
     private func setupSubviews() {
         view.addSubview(questionLabel)
         view.addSubview(answerField)
@@ -76,7 +81,7 @@ final class BestIosQuestionViewController: UIViewController {
             answerField.topAnchor.constraint(equalTo: questionLabel.bottomAnchor, constant: 20),
             answerField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             answerField.widthAnchor.constraint(equalToConstant: 150),
-            okButton.topAnchor.constraint(equalTo: answerField.bottomAnchor),
+            okButton.topAnchor.constraint(equalTo: answerField.bottomAnchor, constant: 20),
             okButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
     }
