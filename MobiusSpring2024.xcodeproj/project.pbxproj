@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EE1DE1F2BF507390075C2EF /* ScreenViewController_9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE1DE1E2BF507390075C2EF /* ScreenViewController_9.swift */; };
+		0EE1DE212BF50D010075C2EF /* PatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE1DE202BF50D010075C2EF /* PatternView.swift */; };
 		2904B1612BEA84DD00953EEE /* Screen6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2904B1602BEA84DD00953EEE /* Screen6View.swift */; };
 		2F5B21E22BC1E109000F4648 /* BashScreenViewController_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B21E12BC1E109000F4648 /* BashScreenViewController_4.swift */; };
 		2F5B21EA2BC1E8EE000F4648 /* BashScreenViewController_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B21E92BC1E8EE000F4648 /* BashScreenViewController_5.swift */; };
@@ -72,6 +74,8 @@
 
 /* Begin PBXFileReference section */
 		2904B1602BEA84DD00953EEE /* Screen6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen6View.swift; sourceTree = "<group>"; };
+		0EE1DE1E2BF507390075C2EF /* ScreenViewController_9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_9.swift; sourceTree = "<group>"; };
+		0EE1DE202BF50D010075C2EF /* PatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternView.swift; sourceTree = "<group>"; };
 		2F5B21E12BC1E109000F4648 /* BashScreenViewController_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BashScreenViewController_4.swift; sourceTree = "<group>"; };
 		2F5B21E92BC1E8EE000F4648 /* BashScreenViewController_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BashScreenViewController_5.swift; sourceTree = "<group>"; };
 		2F8E3FD52BCEB05400081277 /* BestIosQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestIosQuestion.swift; sourceTree = "<group>"; };
@@ -159,6 +163,32 @@
 				2904B1602BEA84DD00953EEE /* Screen6View.swift */,
 			);
 			path = 6;
+			sourceTree = "<group>";
+		};
+		0EE1D89F2BEA59700075C2EF /* DyakoVlad */ = {
+			isa = PBXGroup;
+			children = (
+				0EE1DDAB2BF500A90075C2EF /* 9 */,
+				0EE1D8A02BEA597B0075C2EF /* 3 */,
+			);
+			path = DyakoVlad;
+			sourceTree = "<group>";
+		};
+		0EE1D8A02BEA597B0075C2EF /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				F3CAE4932BBC4DA40064E9F5 /* ScreenViewController_3.swift */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		0EE1DDAB2BF500A90075C2EF /* 9 */ = {
+			isa = PBXGroup;
+			children = (
+				0EE1DE1E2BF507390075C2EF /* ScreenViewController_9.swift */,
+				0EE1DE202BF50D010075C2EF /* PatternView.swift */,
+			);
+			path = 9;
 			sourceTree = "<group>";
 		};
 		2F5B21DF2BC1E0FA000F4648 /* Bash */ = {
@@ -272,7 +302,6 @@
 			children = (
 				F35F82F82BEEAD2B006B39AC /* 5 */,
 				F36FA2472BDEE06C0060BF8C /* 4 */,
-				F3CAE4922BBC4D9D0064E9F5 /* 3 */,
 				F3CAE48F2BBC4D810064E9F5 /* 2 */,
 				F3CAE48E2BBC49410064E9F5 /* 1 */,
 			);
@@ -411,6 +440,7 @@
 		F3CAE3592BBB65320064E9F5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				0EE1D89F2BEA59700075C2EF /* DyakoVlad */,
 				B814E3322BF115DA00449E42 /* hharrold */,
 				A7BAF09A2BF4096500A4A177 /* Omgitsarina */,
 				2904B15E2BEA849100953EEE /* MultX */,
@@ -450,14 +480,6 @@
 				F3CAE4902BBC4D880064E9F5 /* ScreenViewController_2.swift */,
 			);
 			path = 2;
-			sourceTree = "<group>";
-		};
-		F3CAE4922BBC4D9D0064E9F5 /* 3 */ = {
-			isa = PBXGroup;
-			children = (
-				F3CAE4932BBC4DA40064E9F5 /* ScreenViewController_3.swift */,
-			);
-			path = 3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -619,6 +641,7 @@
 				2904B1612BEA84DD00953EEE /* Screen6View.swift in Sources */,
 				F35F82FA2BEEAD45006B39AC /* ScreenViewController_5.swift in Sources */,
 				F3CAE4912BBC4D880064E9F5 /* ScreenViewController_2.swift in Sources */,
+				0EE1DE1F2BF507390075C2EF /* ScreenViewController_9.swift in Sources */,
 				F3CAE3532BBB61150064E9F5 /* UIViewController+Extensions.swift in Sources */,
 				F36FA2492BDEE09D0060BF8C /* ScreenViewController_4.swift in Sources */,
 				F3CAE35D2BBB657F0064E9F5 /* StartSwiftUIView.swift in Sources */,
@@ -629,6 +652,7 @@
 				F35F84352BEEB138006B39AC /* AnyShapeAnimation.swift in Sources */,
 				F3CAE3442BBB5B490064E9F5 /* TapMeButton.swift in Sources */,
 				F36FA2452BDEDEA40060BF8C /* Collection+Extensions.swift in Sources */,
+				0EE1DE212BF50D010075C2EF /* PatternView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
