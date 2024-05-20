@@ -17,7 +17,7 @@ struct ArinaScreenView: View {
             
             DatePicker(
                 selection: $birthDate,
-                in: Date.now...,
+                in: ...Date.now,
                 displayedComponents: .date
             ) {
                 VStack(alignment: .leading) {

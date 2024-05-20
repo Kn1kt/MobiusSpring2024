@@ -62,7 +62,7 @@ final class ScreenViewController_7: BaseScreenViewController {
  
     @objc
     private func sliderValueChanged() {
-        slideView.center.y = centerY - Constants.Padding.element + CGFloat(slider.value)
+        slideView.center.x = centerX - Constants.Padding.element + CGFloat(slider.value)
 
         checker()
     }
@@ -87,9 +87,11 @@ extension ScreenViewController_7 {
     }
     
     private func checker() {
-        guard slider.value == Float(centerX - Constants.Padding.slide) else { return }
+        print("value = \(slider.value)")
         
-        guard backgroundView.center.y == slideView.center.y && backgroundView.center.x == slideView.center.x else { return }
+//        guard slider.value == Float(backgroundView.center.x - Constants.Padding.slide) else { return }
+        let diff = backgroundView.center.x - slideView.center.x
+        guard backgroundView.center.y == slideView.center.y && diff < 0.1 else { return }
         
         slider.isHidden = true
         tapMeButton.isHidden = false

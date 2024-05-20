@@ -55,10 +55,15 @@ final class AnimatedContentScreen: DEBUGAnimatedContentScreen {
                 shapeLayer.add(body, forKey: String(index))
             }
         }
-        
+//        self.animatedLayer?.speed = 0.000000001
+//        animatedLayer.duration = 2
         self.animatedLayer?.removeFromSuperlayer()
         self.animatedLayer = animatedLayer
-        self.beginTime = beginTime
+//        self.beginTime = beginTime
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.15) {
+            self.animatedLayer?.pauseAnimations()
+        }
         
         layoutAnimatedLayer()
         
@@ -67,7 +72,7 @@ final class AnimatedContentScreen: DEBUGAnimatedContentScreen {
     
     private func layoutAnimatedLayer() {
         let scale = view.safeAreaLayoutGuide.layoutFrame.width / animatedContent.boundsSize.width
-        
+
         animatedLayer?.position = .init(x: view.bounds.midX, y: view.bounds.midY)
         animatedLayer?.transform = .scale(x: scale, y: scale)
     }

@@ -46,8 +46,8 @@ final class PatternView: UIView {
                 dotView.backgroundColor = .secondarySystemBackground
                 dotView.layer.cornerRadius = dotSize / 2
                 dotView.layer.masksToBounds = true
-                dotView.layer.isGeometryFlipped = true
-                dotView.layer.superlayer?.isGeometryFlipped = true
+//                dotView.layer.isGeometryFlipped = true
+//                dotView.layer.superlayer?.isGeometryFlipped = true
                 dotView.tag = row * self.gridSize + col + 1
 
                 let label = UILabel(frame: dotView.bounds)
