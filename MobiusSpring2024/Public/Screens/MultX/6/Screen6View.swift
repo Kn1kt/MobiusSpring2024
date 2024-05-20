@@ -162,7 +162,7 @@ struct Y360Stack<Content>: View where Content: View  {
     var body: some View {
         VStack {
             content
-                .offset(y: 96)
+//                .offset(y: 96)
         }
     }
 }

@@ -19,8 +19,8 @@ final class ScreenViewController_3: BaseScreenViewController {
     private let notchStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .horizontal
-        stackView.spacing = 20
-        stackView.alignment = .center
+        stackView.spacing = 10
+        stackView.alignment = .leading
         stackView.distribution = .equalCentering
         return stackView
     }()
@@ -76,8 +76,8 @@ final class ScreenViewController_3: BaseScreenViewController {
         NSLayoutConstraint.activate([
             self.notchStackView.heightAnchor.constraint(equalToConstant: 100),
             self.notchStackView.centerYAnchor.constraint(equalTo: self.levelView.centerYAnchor),
-            self.notchStackView.leadingAnchor.constraint(equalTo: self.levelView.leadingAnchor, constant: 40),
-            self.notchStackView.trailingAnchor.constraint(equalTo: self.levelView.trailingAnchor, constant: 40)
+            self.notchStackView.leadingAnchor.constraint(equalTo: self.levelView.leadingAnchor, constant: 0),
+            self.notchStackView.trailingAnchor.constraint(equalTo: self.levelView.trailingAnchor, constant: 0)
         ])
 
         for i in 1 ... Constants.diceCount {
@@ -119,6 +119,7 @@ final class ScreenViewController_3: BaseScreenViewController {
             diceView.textAlignment = .center
             diceView.text = "\(i)"
             diceView.tag = i
+            diceView.isUserInteractionEnabled = true
 
             let panGesture = UIPanGestureRecognizer(target: self, action: #selector(onDrag))
             diceView.addGestureRecognizer(panGesture)
@@ -184,7 +185,8 @@ final class ScreenViewController_3: BaseScreenViewController {
 
     private func moveDiceToNotch(diceView: UIView, notchView: UIView) {
         UIView.animate(withDuration: 0.1) {
-            diceView.center = notchView.center
+            let res = notchView.superview?.convert(notchView.center, to: diceView.superview)
+            diceView.center = res!
         }
     }
 }

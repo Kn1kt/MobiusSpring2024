@@ -47,6 +47,7 @@ final class ScreenViewController_1: UIViewController {
         label.layer.cornerRadius = 16
         label.layer.cornerCurve = .continuous
         label.layer.masksToBounds = true
+        label.isUserInteractionEnabled = true
         label.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(onTapConfirmation)))
         label.translatesAutoresizingMaskIntoConstraints = false
         
