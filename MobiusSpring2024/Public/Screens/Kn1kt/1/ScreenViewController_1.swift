@@ -37,13 +37,14 @@ final class ScreenViewController_1: UIViewController {
         return label
     }()
     
-    private lazy var confirmation: UILabel = {
-        let label = UILabel()
-        label.text = "Подтвердить"
-        label.font = .preferredFont(forTextStyle: .headline)
-        label.numberOfLines = 0
-        label.textAlignment = .center
-        label.backgroundColor = .tintColor
+    private lazy var confirmation: UIButton = {
+        let label = UIButton()
+        label.setTitle("Подтвердить", for: .normal)
+//        label.titleLabel = "Подтвердить"
+//        label.font = .preferredFont(forTextStyle: .headline)
+//        label.numberOfLines = 0
+//        label.textAlignment = .center
+//        label.backgroundColor = .tintColor
         label.layer.cornerRadius = 16
         label.layer.cornerCurve = .continuous
         label.layer.masksToBounds = true
