@@ -20,7 +20,7 @@ final class ScreenViewController_7: BaseScreenViewController {
         let slider = UISlider()
         self.view.addSubview(slider)
         slider.minimumValue = 0
-        slider.maximumValue = Float(centerX + Constants.Padding.slide)
+        slider.maximumValue = Float(centerX - Constants.Padding.slide)
         slider.addTarget(self, action: #selector(sliderValueChanged), for: .valueChanged)
 
         return slider
@@ -62,7 +62,7 @@ final class ScreenViewController_7: BaseScreenViewController {
  
     @objc
     private func sliderValueChanged() {
-        slideView.center.y = centerY - Constants.Padding.element + CGFloat(slider.value)
+        slideView.center.x = slideViewMinX + CGFloat(slider.value)
 
         checker()
     }

@@ -76,8 +76,8 @@ final class ScreenViewController_3: BaseScreenViewController {
         NSLayoutConstraint.activate([
             self.notchStackView.heightAnchor.constraint(equalToConstant: 100),
             self.notchStackView.centerYAnchor.constraint(equalTo: self.levelView.centerYAnchor),
-            self.notchStackView.leadingAnchor.constraint(equalTo: self.levelView.leadingAnchor, constant: 40),
-            self.notchStackView.trailingAnchor.constraint(equalTo: self.levelView.trailingAnchor, constant: 40)
+            self.notchStackView.leadingAnchor.constraint(equalTo: self.levelView.leadingAnchor, constant: 10),
+            self.notchStackView.trailingAnchor.constraint(equalTo: self.levelView.trailingAnchor, constant: 10)
         ])
 
         for i in 1 ... Constants.diceCount {
@@ -121,6 +121,7 @@ final class ScreenViewController_3: BaseScreenViewController {
             diceView.tag = i
 
             let panGesture = UIPanGestureRecognizer(target: self, action: #selector(onDrag))
+            diceView.isUserInteractionEnabled = true
             diceView.addGestureRecognizer(panGesture)
 
             let randomOrigin = self.getRandomPointInRectExcludingArea(
@@ -167,12 +168,12 @@ final class ScreenViewController_3: BaseScreenViewController {
 
         var isCompleted = true
 
-        for i in 0 ..< Constants.diceCount {
+        for i in 1 ..< Constants.diceCount {
             let notchView = self.notchViews[i]
             let diceView = self.draggableViews[i]
 
             let notchFrameInLevelView = self.levelView.convert(notchView.frame, from: self.notchStackView)
-            if CGRectIntersectsRect(notchFrameInLevelView, diceView.frame) && notchView.tag == diceView.tag {
+            if CGRectIntersectsRect(notchView.frame, diceView.frame) && notchView.tag == diceView.tag {
                 self.moveDiceToNotch(diceView: diceView, notchView: notchView)
             } else {
                 isCompleted = false
