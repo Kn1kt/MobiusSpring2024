@@ -121,8 +121,6 @@ final class ScreenViewController_3: BaseScreenViewController {
             diceView.tag = i
 
             let panGesture = UIPanGestureRecognizer(target: self, action: #selector(onDrag))
-            //TODO: disable to break
-            diceView.isUserInteractionEnabled = true
             diceView.addGestureRecognizer(panGesture)
 
             let randomOrigin = self.getRandomPointInRectExcludingArea(
@@ -186,9 +184,7 @@ final class ScreenViewController_3: BaseScreenViewController {
 
     private func moveDiceToNotch(diceView: UIView, notchView: UIView) {
         UIView.animate(withDuration: 0.1) {
-            //TODO: make diceView.center = notchView.center to break
-            let centerInLevelView = self.levelView.convert(notchView.center, from: self.notchStackView)
-            diceView.center = centerInLevelView
+            diceView.center = notchView.center
         }
     }
 }
