@@ -109,7 +109,7 @@ final class ScreenViewController_4: BaseScreenViewController {
     private func checkConfirmation() {
         attempts += 1
         guard attempts > 15 else { return playErrorAnimation() }
-        tapMeButton.performPrimaryAction()
+//        tapMeButton.performPrimaryAction()
     }
 }
 
