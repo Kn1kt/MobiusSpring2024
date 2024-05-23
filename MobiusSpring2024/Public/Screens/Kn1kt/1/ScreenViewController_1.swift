@@ -43,6 +43,7 @@ final class ScreenViewController_1: UIViewController {
         label.font = .preferredFont(forTextStyle: .headline)
         label.numberOfLines = 0
         label.textAlignment = .center
+        label.textColor = .white
         label.backgroundColor = .tintColor
         label.layer.cornerRadius = 16
         label.layer.cornerCurve = .continuous

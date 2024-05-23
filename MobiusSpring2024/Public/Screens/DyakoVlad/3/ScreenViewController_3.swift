@@ -11,7 +11,7 @@ final class ScreenViewController_3: BaseScreenViewController {
         label.textAlignment = .center
         label.numberOfLines = 0
         label.font = .systemFont(ofSize: 22, weight: .medium)
-        label.text = "Расположи в порядке возрастания"
+        label.text = "Расположи все цифры в порядке возрастания"
         return label
     }()
 

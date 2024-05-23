@@ -19,7 +19,7 @@ final class ScreenViewController_9: BaseScreenViewController {
         label.textAlignment = .center
         label.numberOfLines = 0
         label.font = .systemFont(ofSize: 22, weight: .medium)
-        label.text = "Введи правильный пароль"
+        label.text = "Введи графический пароль"
         return label
     }()
 

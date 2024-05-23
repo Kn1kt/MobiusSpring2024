@@ -69,9 +69,13 @@ struct KeyPad: View {
     var body: some View {
         VStack {
             KeyPadRow(keys: ["1", "2", "3"])
+                .offset(y: Constants.firstRowOffset)
             KeyPadRow(keys: ["4", "5", "6"])
+                .offset(y: Constants.secondRowOffset)
             KeyPadRow(keys: ["7", "8", "9"])
+                .offset(y: Constants.thirdRowOffset)
             KeyPadRow(keys: [".", "0", "⌫"])
+                .offset(y: Constants.fourthRowOffset)
         }
         .environment(\.keyPadButtonAction, self.keyWasPressed(_:))
     }
@@ -87,18 +91,29 @@ struct KeyPad: View {
 }
 
 struct Screen6View: View {
-    @State private var generatedPassword = Self.generatePassword()
-    @State private var enteredPassword = ""
+    @State private var generatedPassword: String
+    @State private var enteredPassword: String
     @State private var orientation: UIDeviceOrientation = UIDevice.current.orientation
     
-    private let action: () -> Void
+    private let generatePassword: () -> String
+    private let checkPassword: (String) -> Bool
+    private let tryPassword: (String) -> Void
     
-    init(action: @escaping () -> Void) {
-        self.action = action
+    init(
+        generatePassword: @escaping () -> String,
+        checkPassword: @escaping (String) -> Bool,
+        tryPassword: @escaping (String) -> Void
+    ) {
+        self.generatePassword = generatePassword
+        self.checkPassword = checkPassword
+        self.tryPassword = tryPassword
+        
+        _generatedPassword = .init(wrappedValue: generatePassword())
+        _enteredPassword = .init(wrappedValue: "")
     }
     
     var body: some View {
-        Y360Stack {
+        VStack {
             if !orientation.isLandscape {
                 Spacer()
                 
@@ -119,7 +134,7 @@ struct Screen6View: View {
                 
                 KeyPad(string: $enteredPassword)
                     .onAppear {
-                        generatedPassword = Self.generatePassword()
+                        generatedPassword = generatePassword()
                     }
                 
             } else {
@@ -133,9 +148,11 @@ struct Screen6View: View {
                 
                 Spacer()
                 
-                if generatedPassword == enteredPassword {
-                    Button("Поехали дальше", action: action)
-                        .buttonStyle(.borderedProminent)
+                if checkPassword(generatedPassword) {
+                    Button("Поехали дальше") {
+                        tryPassword(generatedPassword)
+                    }
+                    .buttonStyle(.borderedProminent)
                     
                     Spacer()
                 }
@@ -145,34 +162,20 @@ struct Screen6View: View {
             self.orientation = UIDevice.current.orientation
         }
     }
-    
-    private static func generatePassword() -> String {
-        let range = 0 ..< 10
-        return range.map { _ in String(Int.random(in: range)) }.shuffled().joined()
-    }
 }
 
-struct Y360Stack<Content>: View where Content: View  {
-    let content: Content
-    
-    @inlinable public init(@ViewBuilder content: @escaping () -> Content) {
-        self.content = content()
-    }
-    
-    var body: some View {
-        VStack {
-            content
-                .offset(y: 96)
-        }
-    }
+private enum Constants {
+    static let firstRowOffset: CGFloat = 16
+    static let secondRowOffset: CGFloat = 46
+    static let thirdRowOffset: CGFloat = 76
+    static let fourthRowOffset: CGFloat = 106
 }
 
-#if DEBUG
-struct Screen6View_Previews : PreviewProvider {
-    static var previews: some View {
-        Group {
-            Screen6View {}
-        }
+#Preview {
+    Screen6View {
+        ""
+    } checkPassword: { _ in
+        true
+    } tryPassword: { _ in
     }
 }
-#endif

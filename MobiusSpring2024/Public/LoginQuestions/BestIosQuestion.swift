@@ -31,7 +31,7 @@ final class BestIosQuestionViewController: UIViewController {
         let button = UIButton(configuration: config)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addAction(UIAction(handler: { [weak self] _ in
-            if self?.answerField.text == "Башир" {
+            if self?.answerField.text == "Бaшир" {
                 self?.action()
             } else {
                 let alert = UIAlertController(
