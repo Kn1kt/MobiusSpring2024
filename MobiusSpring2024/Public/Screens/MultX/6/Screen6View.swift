@@ -148,9 +148,9 @@ struct Screen6View: View {
                 
                 Spacer()
                 
-                if checkPassword(generatedPassword) {
+                if checkPassword(enteredPassword) {
                     Button("Поехали дальше") {
-                        tryPassword(generatedPassword)
+                        tryPassword(enteredPassword)
                     }
                     .buttonStyle(.borderedProminent)
                     
