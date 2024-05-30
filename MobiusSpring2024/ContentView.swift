@@ -12,7 +12,6 @@ struct ContentView: View {
         NavigationStack {
             ZStack {
                 state.buildView(for: state.currentLevel)
-                    .ignoresSafeArea()
                     .navigationTitle("\(state.currentLevel)")
                     .navigationBarTitleDisplayMode(.inline)
                     .toolbar {

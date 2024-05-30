@@ -19,17 +19,11 @@ final class ScreenViewController_1: UIViewController {
     private lazy var text: UILabel = {
         let label = UILabel()
         label.text = """
-        Нажимая кнопку подтвердить - я подтверждаю:
-        
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed laoreet dui. In lobortis a lacus euismod ultricies. In suscipit, nunc ac imperdiet cursus, elit nisi pretium dolor, nec tempor velit eros non sem. Integer varius, justo dictum fringilla accumsan, nulla ipsum placerat erat, quis sodales purus metus tristique nisl. Phasellus imperdiet consequat nibh eget eleifend. Vivamus posuere ultricies accumsan. Fusce eget augue sit amet nunc lobortis elementum. Vestibulum et commodo nunc. Morbi a odio id sem maximus ullamcorper. Sed ultrices felis a turpis varius, ut vehicula velit elementum. Duis at sapien in orci tempus tempor sit amet ac velit. Nam vehicula ullamcorper libero sed porttitor. Vivamus blandit massa nec purus molestie, eget tempus nisl iaculis. Proin malesuada vestibulum neque, vel scelerisque nibh posuere et. Ut risus felis, dapibus ut ligula ac, cursus varius sapien. Nam non orci justo.
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-        Mauris maximus aliquam enim non molestie. Quisque et mauris quis tellus porta bibendum at et dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse ornare euismod leo vel fringilla. Morbi et dictum tellus. Suspendisse potenti. Duis sit amet egestas ligula. Nam imperdiet finibus est a sodales. Proin eu metus interdum, fringilla nibh ut, laoreet libero. Aliquam vestibulum est nec eros sagittis posuere. Suspendisse semper sodales viverra. Morbi in neque eu metus ultrices sollicitudin eget at felis. Aliquam faucibus vestibulum odio quis rutrum.
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-        Quisque vulputate sem quis sapien congue, eu tincidunt elit consectetur. Sed pretium turpis mi, quis gravida ipsum molestie in. Praesent placerat convallis blandit. Duis eget dui ante. Donec sollicitudin elementum nibh, eu finibus nibh cursus id. Nulla auctor in arcu vel fringilla. Aenean porta at est fermentum viverra. Aliquam ut est dapibus, sollicitudin tellus cursus, vulputate nisl.
-
-        Vivamus malesuada aliquam libero, aliquet accumsan enim tristique vel. Mauris viverra id sem vel posuere. Duis metus arcu, imperdiet vel turpis vitae, maximus lacinia sapien. Suspendisse sed ipsum a ipsum viverra luctus quis ac dui. Aliquam erat volutpat. Cras tempor vel risus ac pulvinar. Praesent blandit vitae risus eget mollis. Maecenas semper urna vitae dignissim tincidunt. Vivamus faucibus eros vitae purus interdum tempus. Cras consequat vitae orci quis posuere. Donec commodo accumsan justo et venenatis. Maecenas vel quam dui. Morbi at purus eu mauris pulvinar venenatis in sit amet lectus. Suspendisse porta posuere rhoncus.
-
-        Mauris pellentesque lobortis sem, vestibulum aliquam elit sagittis at. Ut placerat suscipit neque sit amet scelerisque. Aliquam fermentum lorem eget leo euismod sodales. Nullam pharetra, quam quis malesuada venenatis, orci lectus vestibulum massa, quis laoreet leo nibh sed ex. Duis sed mollis tortor, in accumsan dui. Etiam eget feugiat velit, non lacinia orci. Nam ultrices pellentesque mi ut blandit. Donec congue iaculis nunc, vitae hendrerit libero hendrerit id. In in luctus dui. Donec accumsan, urna sed bibendum consequat, diam velit vulputate massa, eu laoreet nibh enim a ante. Fusce placerat consectetur sodales. Donec aliquam ultrices nisl, quis venenatis eros sollicitudin nec. Suspendisse vitae tortor ac sapien hendrerit tincidunt a sed ante. Fusce feugiat nunc quis euismod fringilla. Cras placerat mauris eget nunc vestibulum, sit amet congue nisl pulvinar.
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         """
         label.font = .preferredFont(forTextStyle: .body)
         label.numberOfLines = 0
@@ -87,10 +81,8 @@ final class ScreenViewController_1: UIViewController {
             confirmation.heightAnchor.constraint(equalToConstant: 44),
             confirmation.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -32),
         ])
-    }
-    
-    override func contentScrollView(for edge: NSDirectionalRectEdge) -> UIScrollView? {
-        scrollView
+        
+        setContentScrollView(scrollView)
     }
     
     @objc

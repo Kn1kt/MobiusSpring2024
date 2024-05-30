@@ -29,7 +29,7 @@ final class ScreenViewController_7: BaseScreenViewController {
     private lazy var backgroundView: UIImageView = {
         let backgroundView = UIImageView(image: Constants.backgroundImage!)
         self.view.addSubview(backgroundView)
-        backgroundView.tintColor = .red
+        backgroundView.tintColor = .label
         backgroundView.frame.size = .init(
             width: Constants.Size.side,
             height: Constants.Size.side
@@ -40,7 +40,7 @@ final class ScreenViewController_7: BaseScreenViewController {
     private lazy var slideView: UIImageView = {
        let slideView = UIImageView(image: Constants.slideImage!)
         self.view.addSubview(slideView)
-        slideView.tintColor = .green
+        slideView.tintColor = .label
         slideView.frame.size = .init(
                 width: Constants.Size.side,
                 height: Constants.Size.side
@@ -73,8 +73,9 @@ extension ScreenViewController_7 {
         super.viewDidLoad()
         
         tapMeButton.isHidden = true
-        titleView.center.y = Constants.Padding.element
-        titleView.frame.size = .init(width: view.frame.width, height: Constants.Size.title)
+        titleView.frame.size = titleView.sizeThatFits(view.bounds.size)
+        titleView.center.x = view.center.x
+        titleView.frame.origin.y = view.safeAreaLayoutGuide.layoutFrame.minY + 64
 
         slider.center.y = centerY
         slider.center.x = centerX
@@ -107,7 +108,7 @@ private enum Constants {
         static let title: CGFloat = 50
     }
 
-    static let backgroundImage = UIImage(systemName: "trash.fill")
-    static let slideImage = UIImage(systemName: "trash")
-    static let title = "Подтвердите, что вы не робот\nСопоставьте изображения"
+    static let backgroundImage = UIImage(systemName: "circle.dotted")
+    static let slideImage = UIImage(systemName: "circle.circle")
+    static let title = "Подтвердите, что вы не робот,\ncопоставьте изображения"
 }

@@ -33,7 +33,7 @@ public final class AnimatedLayer: CALayer {
         beginTime = .zero
 
         let timeSincePause = currentLocalTime - pausedTime
-        beginTime = convertToLocalDuration(timeSincePause)
+        beginTime = convertToParentDuration(timeSincePause)
     }
 }
 
@@ -42,9 +42,9 @@ private extension AnimatedLayer {
     var currentLocalTime: CFTimeInterval { convertToLocalTime(CACurrentMediaTime()) }
 
     @inline(__always)
-    func convertToLocalDuration(_ duration: CFTimeInterval) -> CFTimeInterval {
-        let zeroTime = convertTime(.zero, to: nil)
-        let convertedDuration = convertTime(duration, to: nil)
+    func convertToParentDuration(_ duration: CFTimeInterval) -> CFTimeInterval {
+        let zeroTime = convertTime(.zero, to: superlayer)
+        let convertedDuration = convertTime(duration, to: superlayer)
         return convertedDuration - zeroTime
     }
 

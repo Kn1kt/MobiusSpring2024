@@ -53,6 +53,7 @@
 		F3CAE35F2BBB67020064E9F5 /* FinishSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE35E2BBB67020064E9F5 /* FinishSwiftUIView.swift */; };
 		F3CAE4912BBC4D880064E9F5 /* ScreenViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE4902BBC4D880064E9F5 /* ScreenViewController_2.swift */; };
 		F3CAE4942BBC4DA40064E9F5 /* ScreenViewController_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE4932BBC4DA40064E9F5 /* ScreenViewController_3.swift */; };
+		F3CF20862C091049008DD91D /* SecureText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CF20852C091049008DD91D /* SecureText.swift */; };
 		F3F5EED82BFA9671002626DC /* AnimatedContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5EED72BFA9671002626DC /* AnimatedContentScreen.swift */; };
 		F3F5EEDB2BFAB2DB002626DC /* DEBUGAnimatedContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5EEDA2BFAB2DB002626DC /* DEBUGAnimatedContentScreen.swift */; };
 /* End PBXBuildFile section */
@@ -124,6 +125,7 @@
 		F3CAE35E2BBB67020064E9F5 /* FinishSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishSwiftUIView.swift; sourceTree = "<group>"; };
 		F3CAE4902BBC4D880064E9F5 /* ScreenViewController_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_2.swift; sourceTree = "<group>"; };
 		F3CAE4932BBC4DA40064E9F5 /* ScreenViewController_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_3.swift; sourceTree = "<group>"; };
+		F3CF20852C091049008DD91D /* SecureText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureText.swift; sourceTree = "<group>"; };
 		F3F5EED72BFA9671002626DC /* AnimatedContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedContentScreen.swift; sourceTree = "<group>"; };
 		F3F5EEDA2BFAB2DB002626DC /* DEBUGAnimatedContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEBUGAnimatedContentScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -405,6 +407,7 @@
 				F3CAE35B2BBB65710064E9F5 /* Finish */,
 				F3CAE35A2BBB656E0064E9F5 /* Start */,
 				F3CAE3542BBB642E0064E9F5 /* Base */,
+				F3CF20852C091049008DD91D /* SecureText.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -639,6 +642,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CF20862C091049008DD91D /* SecureText.swift in Sources */,
 				F3F5EEDB2BFAB2DB002626DC /* DEBUGAnimatedContentScreen.swift in Sources */,
 				F35F88062BEEC92D006B39AC /* AnimatedLayer.swift in Sources */,
 				F3CAE3492BBB5BD20064E9F5 /* LevelBuilder.swift in Sources */,

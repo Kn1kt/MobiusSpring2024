@@ -7,14 +7,16 @@ import SwiftUI
 
 struct StartSwiftUIView: View {
     var body: some View {
-        VStack {
+        VStack {            
             Text("Подтвердите, что вы не робот, ответив на пару простых вопрсов")
                 .font(.title)
                 .bold()
                 .multilineTextAlignment(.center)
             
-            Button("Начать!") {
+            Button {
                 LevelBuilder.shared.currentLevel = 1
+            } label: {
+                Text("Начать")
             }
             .buttonStyle(.bordered)
             .font(.title2)

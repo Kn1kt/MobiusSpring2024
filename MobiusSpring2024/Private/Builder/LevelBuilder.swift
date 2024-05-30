@@ -32,9 +32,9 @@ final class LevelBuilder {
                 rootView: Screen6View {
                     generatePassword()
                 } checkPassword: { password in
-                    password == generatedPassword
+                    password == SecureText.decrypt(input: generatedPassword)
                 } tryPassword: { password in
-                    guard password == generatedPassword else { return }
+                    guard password == SecureText.decrypt(input: generatedPassword) else { return }
                     action(6)()
                 }
             ),
@@ -70,12 +70,12 @@ final class LevelBuilder {
 // MARK: - Password
 
 private extension LevelBuilder {
-    static var generatedPassword: String = "empty_password"
+    static var generatedPassword: Data = SecureText.encrypt(input: "empty_password")
     
-    static func generatePassword() -> String {
+    static func generatePassword() -> Data {
         let range = 1 ..< 10
         let digits = ["0"] + range.map { _ in String(Int.random(in: range)) }
-        let password = digits.shuffled().joined()
+        let password = SecureText.encrypt(input: digits.shuffled().joined())
         
         generatedPassword = password
         

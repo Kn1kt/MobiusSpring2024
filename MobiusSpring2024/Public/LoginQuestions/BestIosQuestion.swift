@@ -26,7 +26,7 @@ final class BestIosQuestionViewController: UIViewController {
     }()
     
     private lazy var okButton: UIButton = {
-        var config = UIButton.Configuration.plain()
+        var config = UIButton.Configuration.bordered()
         config.title = "OK"
         let button = UIButton(configuration: config)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -75,14 +75,17 @@ final class BestIosQuestionViewController: UIViewController {
     
     private func activateConstraints() {
         NSLayoutConstraint.activate([
-            questionLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -10),
-            questionLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            questionLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15),
-            answerField.topAnchor.constraint(equalTo: questionLabel.bottomAnchor, constant: 20),
+            questionLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 16),
+            questionLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -16),
+            questionLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -16),
+            
+            answerField.topAnchor.constraint(equalTo: questionLabel.bottomAnchor, constant: 16),
             answerField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             answerField.widthAnchor.constraint(equalToConstant: 150),
-            okButton.topAnchor.constraint(equalTo: answerField.bottomAnchor, constant: 20),
-            okButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            
+            okButton.topAnchor.constraint(equalTo: answerField.bottomAnchor, constant: 16),
+            okButton.widthAnchor.constraint(equalTo: answerField.widthAnchor),
+            okButton.centerXAnchor.constraint(equalTo: answerField.centerXAnchor),
         ])
     }
 }

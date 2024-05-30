@@ -69,13 +69,13 @@ struct KeyPad: View {
     var body: some View {
         VStack {
             KeyPadRow(keys: ["1", "2", "3"])
-                .offset(y: Constants.firstRowOffset)
+//                .offset(y: Constants.firstRowOffset)
             KeyPadRow(keys: ["4", "5", "6"])
-                .offset(y: Constants.secondRowOffset)
+//                .offset(y: Constants.secondRowOffset)
             KeyPadRow(keys: ["7", "8", "9"])
-                .offset(y: Constants.thirdRowOffset)
+//                .offset(y: Constants.thirdRowOffset)
             KeyPadRow(keys: [".", "0", "⌫"])
-                .offset(y: Constants.fourthRowOffset)
+//                .offset(y: Constants.fourthRowOffset)
         }
         .environment(\.keyPadButtonAction, self.keyWasPressed(_:))
     }
@@ -91,16 +91,16 @@ struct KeyPad: View {
 }
 
 struct Screen6View: View {
-    @State private var generatedPassword: String
+    @State private var generatedPassword: Data
     @State private var enteredPassword: String
     @State private var orientation: UIDeviceOrientation = UIDevice.current.orientation
     
-    private let generatePassword: () -> String
+    private let generatePassword: () -> Data
     private let checkPassword: (String) -> Bool
     private let tryPassword: (String) -> Void
     
     init(
-        generatePassword: @escaping () -> String,
+        generatePassword: @escaping () -> Data,
         checkPassword: @escaping (String) -> Bool,
         tryPassword: @escaping (String) -> Void
     ) {
@@ -119,7 +119,7 @@ struct Screen6View: View {
                 
                 Text("Введите сгенерированный пароль")
                 
-                Text(generatedPassword)
+                SecureText(generatedPassword)
                     .font(.largeTitle)
                 
                 Spacer()
@@ -149,7 +149,7 @@ struct Screen6View: View {
                 Spacer()
                 
                 if checkPassword(enteredPassword) {
-                    Button("Поехали дальше") {
+                    Button("Продолжить") {
                         tryPassword(enteredPassword)
                     }
                     .buttonStyle(.borderedProminent)
@@ -173,7 +173,7 @@ private enum Constants {
 
 #Preview {
     Screen6View {
-        ""
+        Data()
     } checkPassword: { _ in
         true
     } tryPassword: { _ in

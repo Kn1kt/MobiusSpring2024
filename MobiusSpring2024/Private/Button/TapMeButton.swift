@@ -7,7 +7,7 @@ import UIKit
 
 final class TapMeButton: UIButton {    
     convenience init(action: @escaping () -> Void) {
-        let primaryAction = UIAction(title: "Tap Me!") { _ in
+        let primaryAction = UIAction(title: "Продолжить") { _ in
             action()
         }
         self.init(type: .system, primaryAction: primaryAction)

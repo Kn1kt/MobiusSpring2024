@@ -19,7 +19,7 @@ final class ScreenViewController_9: BaseScreenViewController {
         label.textAlignment = .center
         label.numberOfLines = 0
         label.font = .systemFont(ofSize: 22, weight: .medium)
-        label.text = "Введи графический пароль"
+        label.text = "Введите графический пароль"
         return label
     }()
 
@@ -32,6 +32,7 @@ final class ScreenViewController_9: BaseScreenViewController {
     private func setupSubviews() {
         let patternView = PatternView(frame: self.view.frame)
         patternView.backgroundColor = .systemBackground
+        patternView.layer.isGeometryFlipped = true
         patternView.delegate = self
         self.view.addSubview(patternView)
 

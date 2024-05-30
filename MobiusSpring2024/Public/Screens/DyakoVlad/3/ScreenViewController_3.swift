@@ -11,7 +11,7 @@ final class ScreenViewController_3: BaseScreenViewController {
         label.textAlignment = .center
         label.numberOfLines = 0
         label.font = .systemFont(ofSize: 22, weight: .medium)
-        label.text = "Расположи все цифры в порядке возрастания"
+        label.text = "Расположите все цифры в порядке возрастания"
         return label
     }()
 
@@ -117,6 +117,7 @@ final class ScreenViewController_3: BaseScreenViewController {
             diceView.backgroundColor = .lightGray
             diceView.font = .systemFont(ofSize: 24, weight: .semibold)
             diceView.textAlignment = .center
+            diceView.textColor = .white
             diceView.text = "\(i)"
             diceView.tag = i
 
