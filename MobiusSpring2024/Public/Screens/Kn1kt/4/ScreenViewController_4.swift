@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import Internals
 
 final class ScreenViewController_4: BaseScreenViewController {
     private lazy var question: UILabel = {

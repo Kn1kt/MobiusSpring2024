@@ -1,0 +1,3843 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "Internals"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SecureText",
+        "printedName": "SecureText",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals10SecureTextV4bodyQrvp",
+            "mangledName": "$s9Internals10SecureTextV4bodyQrvp",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals10SecureTextV4bodyQrvg",
+                "mangledName": "$s9Internals10SecureTextV4bodyQrvg",
+                "moduleName": "Internals",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SecureText",
+                "printedName": "Internals.SecureText",
+                "usr": "s:9Internals10SecureTextV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Internals10SecureTextVyAC10Foundation4DataVcfc",
+            "mangledName": "$s9Internals10SecureTextVyAC10Foundation4DataVcfc",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Internals10SecureTextV",
+        "mangledName": "$s9Internals10SecureTextV",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DEBUGAnimatedContentScreen",
+        "printedName": "DEBUGAnimatedContentScreen",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "animatedContent",
+            "printedName": "animatedContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals26DEBUGAnimatedContentScreenC08animatedC0AA08AnimatedC0Vvp",
+            "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC08animatedC0AA08AnimatedC0Vvp",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals26DEBUGAnimatedContentScreenC08animatedC0AA08AnimatedC0Vvg",
+                "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC08animatedC0AA08AnimatedC0Vvg",
+                "moduleName": "Internals",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "animatedLayer",
+            "printedName": "animatedLayer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Internals.AnimatedLayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedLayer",
+                    "printedName": "Internals.AnimatedLayer",
+                    "usr": "c:@M@Internals@objc(cs)AnimatedLayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals26DEBUGAnimatedContentScreenC13animatedLayerAA08AnimatedF0CSgvp",
+            "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC13animatedLayerAA08AnimatedF0CSgvp",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Internals.AnimatedLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimatedLayer",
+                        "printedName": "Internals.AnimatedLayer",
+                        "usr": "c:@M@Internals@objc(cs)AnimatedLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals26DEBUGAnimatedContentScreenC13animatedLayerAA08AnimatedF0CSgvg",
+                "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC13animatedLayerAA08AnimatedF0CSgvg",
+                "moduleName": "Internals",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Internals.AnimatedLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimatedLayer",
+                        "printedName": "Internals.AnimatedLayer",
+                        "usr": "c:@M@Internals@objc(cs)AnimatedLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals26DEBUGAnimatedContentScreenC13animatedLayerAA08AnimatedF0CSgvs",
+                "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC13animatedLayerAA08AnimatedF0CSgvs",
+                "moduleName": "Internals",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals26DEBUGAnimatedContentScreenC13animatedLayerAA08AnimatedF0CSgvM",
+                "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC13animatedLayerAA08AnimatedF0CSgvM",
+                "moduleName": "Internals",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(animatedContent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DEBUGAnimatedContentScreen",
+                "printedName": "Internals.DEBUGAnimatedContentScreen",
+                "usr": "c:@M@Internals@objc(cs)DEBUGAnimatedContentScreen"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Internals26DEBUGAnimatedContentScreenC08animatedC0AcA08AnimatedC0V_tcfc",
+            "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC08animatedC0AcA08AnimatedC0V_tcfc",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Internals@objc(cs)DEBUGAnimatedContentScreen(im)viewDidLoad",
+            "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC11viewDidLoadyyF",
+            "moduleName": "Internals",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupAnimatedLayer",
+            "printedName": "setupAnimatedLayer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals26DEBUGAnimatedContentScreenC18setupAnimatedLayeryyF",
+            "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC18setupAnimatedLayeryyF",
+            "moduleName": "Internals",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DEBUGAnimatedContentScreen",
+                "printedName": "Internals.DEBUGAnimatedContentScreen",
+                "usr": "c:@M@Internals@objc(cs)DEBUGAnimatedContentScreen"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Internals@objc(cs)DEBUGAnimatedContentScreen(im)initWithNibName:bundle:",
+            "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Internals",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Internals@objc(cs)DEBUGAnimatedContentScreen",
+        "mangledName": "$s9Internals26DEBUGAnimatedContentScreenC",
+        "moduleName": "Internals",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnimatedContent",
+        "printedName": "AnimatedContent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "zero",
+            "printedName": "zero",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV4zeroACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV4zeroACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV4zeroACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV4zeroACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "one",
+            "printedName": "one",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV3oneACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV3oneACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV3oneACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV3oneACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "two",
+            "printedName": "two",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV3twoACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV3twoACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV3twoACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV3twoACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "three",
+            "printedName": "three",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV5threeACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV5threeACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV5threeACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV5threeACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "four",
+            "printedName": "four",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV4fourACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV4fourACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV4fourACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV4fourACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "five",
+            "printedName": "five",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV4fiveACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV4fiveACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV4fiveACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV4fiveACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "six",
+            "printedName": "six",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV3sixACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV3sixACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV3sixACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV3sixACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "seven",
+            "printedName": "seven",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV5sevenACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV5sevenACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV5sevenACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV5sevenACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eight",
+            "printedName": "eight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV5eightACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV5eightACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV5eightACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV5eightACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nine",
+            "printedName": "nine",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV4nineACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV4nineACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV4nineACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV4nineACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ten",
+            "printedName": "ten",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV3tenACvpZ",
+            "mangledName": "$s9Internals15AnimatedContentV3tenACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedContent",
+                    "printedName": "Internals.AnimatedContent",
+                    "usr": "s:9Internals15AnimatedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV3tenACvgZ",
+                "mangledName": "$s9Internals15AnimatedContentV3tenACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "boundsSize",
+            "printedName": "boundsSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV10boundsSizeSo6CGSizeVvp",
+            "mangledName": "$s9Internals15AnimatedContentV10boundsSizeSo6CGSizeVvp",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV10boundsSizeSo6CGSizeVvg",
+                "mangledName": "$s9Internals15AnimatedContentV10boundsSizeSo6CGSizeVvg",
+                "moduleName": "Internals",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shapes",
+            "printedName": "shapes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Internals.AnimatedContent.AnimatedShape]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedShape",
+                    "printedName": "Internals.AnimatedContent.AnimatedShape",
+                    "usr": "s:9Internals15AnimatedContentV0B5ShapeV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals15AnimatedContentV6shapesSayAC0B5ShapeVGvp",
+            "mangledName": "$s9Internals15AnimatedContentV6shapesSayAC0B5ShapeVGvp",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Internals.AnimatedContent.AnimatedShape]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimatedShape",
+                        "printedName": "Internals.AnimatedContent.AnimatedShape",
+                        "usr": "s:9Internals15AnimatedContentV0B5ShapeV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals15AnimatedContentV6shapesSayAC0B5ShapeVGvg",
+                "mangledName": "$s9Internals15AnimatedContentV6shapesSayAC0B5ShapeVGvg",
+                "moduleName": "Internals",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(strings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Internals15AnimatedContentV7stringsACSaySSG_tcfc",
+            "mangledName": "$s9Internals15AnimatedContentV7stringsACSaySSG_tcfc",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals15AnimatedContentV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9Internals15AnimatedContentV2eeoiySbAC_ACtFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "AnimatedShape",
+            "printedName": "AnimatedShape",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "position",
+                "printedName": "position",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9Internals15AnimatedContentV0B5ShapeV8positionSo7CGPointVvp",
+                "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV8positionSo7CGPointVvp",
+                "moduleName": "Internals",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGPoint",
+                        "printedName": "CoreFoundation.CGPoint",
+                        "usr": "c:@S@CGPoint"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9Internals15AnimatedContentV0B5ShapeV8positionSo7CGPointVvg",
+                    "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV8positionSo7CGPointVvg",
+                    "moduleName": "Internals",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "boundsSize",
+                "printedName": "boundsSize",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9Internals15AnimatedContentV0B5ShapeV10boundsSizeSo6CGSizeVvp",
+                "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV10boundsSizeSo6CGSizeVvp",
+                "moduleName": "Internals",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9Internals15AnimatedContentV0B5ShapeV10boundsSizeSo6CGSizeVvg",
+                    "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV10boundsSizeSo6CGSizeVvg",
+                    "moduleName": "Internals",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cornerRadius",
+                "printedName": "cornerRadius",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9Internals15AnimatedContentV0B5ShapeV12cornerRadius14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV12cornerRadius12CoreGraphics7CGFloatVvp",
+                "moduleName": "Internals",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9Internals15AnimatedContentV0B5ShapeV12cornerRadius14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV12cornerRadius12CoreGraphics7CGFloatVvg",
+                    "moduleName": "Internals",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "rotationAngle",
+                "printedName": "rotationAngle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9Internals15AnimatedContentV0B5ShapeV13rotationAngle14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV13rotationAngle12CoreGraphics7CGFloatVvp",
+                "moduleName": "Internals",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9Internals15AnimatedContentV0B5ShapeV13rotationAngle14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV13rotationAngle12CoreGraphics7CGFloatVvg",
+                    "moduleName": "Internals",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "color",
+                "printedName": "color",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9Internals15AnimatedContentV0B5ShapeV5colorSo7UIColorCvp",
+                "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV5colorSo7UIColorCvp",
+                "moduleName": "Internals",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9Internals15AnimatedContentV0B5ShapeV5colorSo7UIColorCvg",
+                    "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV5colorSo7UIColorCvg",
+                    "moduleName": "Internals",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "animations",
+                "printedName": "animations",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Internals.AnyShapeAnimation>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyShapeAnimation",
+                        "printedName": "Internals.AnyShapeAnimation",
+                        "usr": "s:9Internals17AnyShapeAnimationV"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9Internals15AnimatedContentV0B5ShapeV10animationsShyAA03AnyD9AnimationVGvp",
+                "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV10animationsShyAA03AnyD9AnimationVGvp",
+                "moduleName": "Internals",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Set",
+                        "printedName": "Swift.Set<Internals.AnyShapeAnimation>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyShapeAnimation",
+                            "printedName": "Internals.AnyShapeAnimation",
+                            "usr": "s:9Internals17AnyShapeAnimationV"
+                          }
+                        ],
+                        "usr": "s:Sh"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9Internals15AnimatedContentV0B5ShapeV10animationsShyAA03AnyD9AnimationVGvg",
+                    "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV10animationsShyAA03AnyD9AnimationVGvg",
+                    "moduleName": "Internals",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(shape:animations:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedShape",
+                    "printedName": "Internals.AnimatedContent.AnimatedShape",
+                    "usr": "s:9Internals15AnimatedContentV0B5ShapeV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9Internals15AnimatedContentV0B5ShapeV5shape10animationsAESS_SaySSGtcfc",
+                "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV5shape10animationsAESS_SaySSGtcfc",
+                "moduleName": "Internals",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9Internals15AnimatedContentV0B5ShapeV",
+            "mangledName": "$s9Internals15AnimatedContentV0B5ShapeV",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Internals15AnimatedContentV",
+        "mangledName": "$s9Internals15AnimatedContentV",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShapePropertyAnimation",
+        "printedName": "ShapePropertyAnimation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "keyPath",
+            "printedName": "keyPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals22ShapePropertyAnimationP7keyPathSSvpZ",
+            "mangledName": "$s9Internals22ShapePropertyAnimationP7keyPathSSvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals22ShapePropertyAnimationP7keyPathSSvgZ",
+                "mangledName": "$s9Internals22ShapePropertyAnimationP7keyPathSSvgZ",
+                "moduleName": "Internals",
+                "genericSig": "<τ_0_0 where τ_0_0 : Internals.ShapePropertyAnimation>",
+                "sugared_genericSig": "<Self where Self : Internals.ShapePropertyAnimation>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9Internals22ShapePropertyAnimationP",
+        "mangledName": "$s9Internals22ShapePropertyAnimationP",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShapeAnimation",
+        "printedName": "ShapeAnimation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CAAnimation",
+                "printedName": "QuartzCore.CAAnimation",
+                "usr": "c:objc(cs)CAAnimation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals14ShapeAnimationP4bodySo11CAAnimationCvp",
+            "mangledName": "$s9Internals14ShapeAnimationP4bodySo11CAAnimationCvp",
+            "moduleName": "Internals",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAAnimation",
+                    "printedName": "QuartzCore.CAAnimation",
+                    "usr": "c:objc(cs)CAAnimation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals14ShapeAnimationP4bodySo11CAAnimationCvg",
+                "mangledName": "$s9Internals14ShapeAnimationP4bodySo11CAAnimationCvg",
+                "moduleName": "Internals",
+                "genericSig": "<τ_0_0 where τ_0_0 : Internals.ShapeAnimation>",
+                "sugared_genericSig": "<Self where Self : Internals.ShapeAnimation>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9Internals14ShapeAnimationP",
+        "mangledName": "$s9Internals14ShapeAnimationP",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnyShapeAnimation",
+        "printedName": "AnyShapeAnimation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CAAnimation",
+                "printedName": "QuartzCore.CAAnimation",
+                "usr": "c:objc(cs)CAAnimation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals17AnyShapeAnimationV4bodySo11CAAnimationCvp",
+            "mangledName": "$s9Internals17AnyShapeAnimationV4bodySo11CAAnimationCvp",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAAnimation",
+                    "printedName": "QuartzCore.CAAnimation",
+                    "usr": "c:objc(cs)CAAnimation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals17AnyShapeAnimationV4bodySo11CAAnimationCvg",
+                "mangledName": "$s9Internals17AnyShapeAnimationV4bodySo11CAAnimationCvg",
+                "moduleName": "Internals",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(animation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyShapeAnimation",
+                "printedName": "Internals.AnyShapeAnimation",
+                "usr": "s:9Internals17AnyShapeAnimationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Internals17AnyShapeAnimationV9animationACx_tcAA0cD0RzAA0c8PropertyD0Rzlufc",
+            "mangledName": "$s9Internals17AnyShapeAnimationV9animationACx_tcAA0cD0RzAA0c8PropertyD0Rzlufc",
+            "moduleName": "Internals",
+            "genericSig": "<τ_0_0 where τ_0_0 : Internals.ShapeAnimation, τ_0_0 : Internals.ShapePropertyAnimation>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "move",
+            "printedName": "move(point:duration:repeated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyShapeAnimation",
+                "printedName": "Internals.AnyShapeAnimation",
+                "usr": "s:9Internals17AnyShapeAnimationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals17AnyShapeAnimationV4move5point8duration8repeatedACSo7CGPointV_SdSbtFZ",
+            "mangledName": "$s9Internals17AnyShapeAnimationV4move5point8duration8repeatedACSo7CGPointV_SdSbtFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyShapeAnimation",
+                "printedName": "Internals.AnyShapeAnimation",
+                "usr": "s:9Internals17AnyShapeAnimationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyShapeAnimation",
+                "printedName": "Internals.AnyShapeAnimation",
+                "usr": "s:9Internals17AnyShapeAnimationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals17AnyShapeAnimationV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9Internals17AnyShapeAnimationV2eeoiySbAC_ACtFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals17AnyShapeAnimationV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9Internals17AnyShapeAnimationV4hash4intoys6HasherVz_tF",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals17AnyShapeAnimationV9hashValueSivp",
+            "mangledName": "$s9Internals17AnyShapeAnimationV9hashValueSivp",
+            "moduleName": "Internals",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals17AnyShapeAnimationV9hashValueSivg",
+                "mangledName": "$s9Internals17AnyShapeAnimationV9hashValueSivg",
+                "moduleName": "Internals",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "rotate",
+            "printedName": "rotate(angle:duration:repeated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyShapeAnimation",
+                "printedName": "Internals.AnyShapeAnimation",
+                "usr": "s:9Internals17AnyShapeAnimationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals17AnyShapeAnimationV6rotate5angle8duration8repeatedAC14CoreFoundation7CGFloatV_SdSbtFZ",
+            "mangledName": "$s9Internals17AnyShapeAnimationV6rotate5angle8duration8repeatedAC12CoreGraphics7CGFloatV_SdSbtFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scale",
+            "printedName": "scale(scale:duration:repeated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyShapeAnimation",
+                "printedName": "Internals.AnyShapeAnimation",
+                "usr": "s:9Internals17AnyShapeAnimationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals17AnyShapeAnimationV5scaleAD8duration8repeatedAC14CoreFoundation7CGFloatV_SdSbtFZ",
+            "mangledName": "$s9Internals17AnyShapeAnimationV5scaleAD8duration8repeatedAC12CoreGraphics7CGFloatV_SdSbtFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9Internals17AnyShapeAnimationV",
+        "mangledName": "$s9Internals17AnyShapeAnimationV",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ShapeAnimation",
+            "printedName": "ShapeAnimation",
+            "usr": "s:9Internals14ShapeAnimationP",
+            "mangledName": "$s9Internals14ShapeAnimationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Observation",
+        "printedName": "Observation",
+        "declKind": "Import",
+        "moduleName": "Internals"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Internals"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LevelBuilder",
+        "printedName": "LevelBuilder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LevelBuilder",
+                "printedName": "Internals.LevelBuilder",
+                "usr": "s:9Internals12LevelBuilderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals12LevelBuilderC6sharedACvpZ",
+            "mangledName": "$s9Internals12LevelBuilderC6sharedACvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LevelBuilder",
+                    "printedName": "Internals.LevelBuilder",
+                    "usr": "s:9Internals12LevelBuilderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals12LevelBuilderC6sharedACvgZ",
+                "mangledName": "$s9Internals12LevelBuilderC6sharedACvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentLevel",
+            "printedName": "currentLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals12LevelBuilderC07currentB0Sivp",
+            "mangledName": "$s9Internals12LevelBuilderC07currentB0Sivp",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals12LevelBuilderC07currentB0Sivg",
+                "mangledName": "$s9Internals12LevelBuilderC07currentB0Sivg",
+                "moduleName": "Internals",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "buildView",
+            "printedName": "buildView(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals12LevelBuilderC9buildView3forQrSi_tF",
+            "mangledName": "$s9Internals12LevelBuilderC9buildView3forQrSi_tF",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "levels",
+            "printedName": "levels",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIViewController]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals12LevelBuilderC6levelsSaySo16UIViewControllerCGvpZ",
+            "mangledName": "$s9Internals12LevelBuilderC6levelsSaySo16UIViewControllerCGvpZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIViewController]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals12LevelBuilderC6levelsSaySo16UIViewControllerCGvgZ",
+                "mangledName": "$s9Internals12LevelBuilderC6levelsSaySo16UIViewControllerCGvgZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIViewController]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals12LevelBuilderC6levelsSaySo16UIViewControllerCGvsZ",
+                "mangledName": "$s9Internals12LevelBuilderC6levelsSaySo16UIViewControllerCGvsZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals12LevelBuilderC6levelsSaySo16UIViewControllerCGvMZ",
+                "mangledName": "$s9Internals12LevelBuilderC6levelsSaySo16UIViewControllerCGvMZ",
+                "moduleName": "Internals",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeAction",
+            "printedName": "makeAction(for:)",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals12LevelBuilderC10makeAction3foryycSi_tFZ",
+            "mangledName": "$s9Internals12LevelBuilderC10makeAction3foryycSi_tFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generatePassword",
+            "printedName": "generatePassword()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals12LevelBuilderC16generatePassword10Foundation4DataVyFZ",
+            "mangledName": "$s9Internals12LevelBuilderC16generatePassword10Foundation4DataVyFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkPassword",
+            "printedName": "checkPassword(password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals12LevelBuilderC13checkPassword8passwordSbSS_tFZ",
+            "mangledName": "$s9Internals12LevelBuilderC13checkPassword8passwordSbSS_tFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tryPassword",
+            "printedName": "tryPassword(password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals12LevelBuilderC11tryPassword8passwordySS_tFZ",
+            "mangledName": "$s9Internals12LevelBuilderC11tryPassword8passwordySS_tFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateAnimation",
+            "printedName": "validateAnimation(_:text:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedContent",
+                "printedName": "Internals.AnimatedContent",
+                "usr": "s:9Internals15AnimatedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals12LevelBuilderC17validateAnimation_4textyAA15AnimatedContentV_SStFZ",
+            "mangledName": "$s9Internals12LevelBuilderC17validateAnimation_4textyAA15AnimatedContentV_SStFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9Internals12LevelBuilderC",
+        "mangledName": "$s9Internals12LevelBuilderC",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Observable",
+            "printedName": "Observable",
+            "usr": "s:11Observation10ObservableP",
+            "mangledName": "$s11Observation10ObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnimatedLayer",
+        "printedName": "AnimatedLayer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "action",
+            "printedName": "action(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any QuartzCore.CAAction)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CAAction",
+                    "printedName": "any QuartzCore.CAAction",
+                    "usr": "c:objc(pl)CAAction"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Internals@objc(cs)AnimatedLayer(im)actionForKey:",
+            "mangledName": "$s9Internals13AnimatedLayerC6action6forKeySo8CAAction_pSgSS_tF",
+            "moduleName": "Internals",
+            "overriding": true,
+            "objc_name": "actionForKey:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseAnimations",
+            "printedName": "pauseAnimations()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals13AnimatedLayerC15pauseAnimationsyyF",
+            "mangledName": "$s9Internals13AnimatedLayerC15pauseAnimationsyyF",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resumeAnimations",
+            "printedName": "resumeAnimations()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Internals13AnimatedLayerC16resumeAnimationsyyF",
+            "mangledName": "$s9Internals13AnimatedLayerC16resumeAnimationsyyF",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedLayer",
+                "printedName": "Internals.AnimatedLayer",
+                "usr": "c:@M@Internals@objc(cs)AnimatedLayer"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Internals@objc(cs)AnimatedLayer(im)init",
+            "mangledName": "$s9Internals13AnimatedLayerCACycfc",
+            "moduleName": "Internals",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(layer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatedLayer",
+                "printedName": "Internals.AnimatedLayer",
+                "usr": "c:@M@Internals@objc(cs)AnimatedLayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Internals@objc(cs)AnimatedLayer(im)initWithLayer:",
+            "mangledName": "$s9Internals13AnimatedLayerC5layerACyp_tcfc",
+            "moduleName": "Internals",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithLayer:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Internals.AnimatedLayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatedLayer",
+                    "printedName": "Internals.AnimatedLayer",
+                    "usr": "c:@M@Internals@objc(cs)AnimatedLayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Internals@objc(cs)AnimatedLayer(im)initWithCoder:",
+            "mangledName": "$s9Internals13AnimatedLayerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Internals",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Internals@objc(cs)AnimatedLayer",
+        "mangledName": "$s9Internals13AnimatedLayerC",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)CALayer",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "QuartzCore.CALayer",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Internals"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseScreenViewController",
+        "printedName": "BaseScreenViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tapMeButton",
+            "printedName": "tapMeButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals24BaseScreenViewControllerC11tapMeButtonSo8UIButtonCvp",
+            "mangledName": "$s9Internals24BaseScreenViewControllerC11tapMeButtonSo8UIButtonCvp",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "Custom",
+              "Lazy",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals24BaseScreenViewControllerC11tapMeButtonSo8UIButtonCvg",
+                "mangledName": "$s9Internals24BaseScreenViewControllerC11tapMeButtonSo8UIButtonCvg",
+                "moduleName": "Internals",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseScreenViewController",
+                "printedName": "Internals.BaseScreenViewController",
+                "usr": "c:@M@Internals@objc(cs)BaseScreenViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Internals24BaseScreenViewControllerC6actionACyyc_tcfc",
+            "mangledName": "$s9Internals24BaseScreenViewControllerC6actionACyyc_tcfc",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Internals@objc(cs)BaseScreenViewController(im)viewDidLoad",
+            "mangledName": "$s9Internals24BaseScreenViewControllerC11viewDidLoadyyF",
+            "moduleName": "Internals",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseScreenViewController",
+                "printedName": "Internals.BaseScreenViewController",
+                "usr": "c:@M@Internals@objc(cs)BaseScreenViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Internals@objc(cs)BaseScreenViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s9Internals24BaseScreenViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Internals",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Internals@objc(cs)BaseScreenViewController",
+        "mangledName": "$s9Internals24BaseScreenViewControllerC",
+        "moduleName": "Internals",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseScrenViewController",
+        "printedName": "BaseScrenViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tapMeButton",
+            "printedName": "tapMeButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9Internals23BaseScrenViewControllerC11tapMeButtonSo8UIButtonCvp",
+            "mangledName": "$s9Internals23BaseScrenViewControllerC11tapMeButtonSo8UIButtonCvp",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "Custom",
+              "Lazy",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9Internals23BaseScrenViewControllerC11tapMeButtonSo8UIButtonCvg",
+                "mangledName": "$s9Internals23BaseScrenViewControllerC11tapMeButtonSo8UIButtonCvg",
+                "moduleName": "Internals",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseScrenViewController",
+                "printedName": "Internals.BaseScrenViewController",
+                "usr": "c:@M@Internals@objc(cs)BaseScrenViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Internals23BaseScrenViewControllerC6actionACyyc_tcfc",
+            "mangledName": "$s9Internals23BaseScrenViewControllerC6actionACyyc_tcfc",
+            "moduleName": "Internals",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Internals@objc(cs)BaseScrenViewController(im)viewDidLoad",
+            "mangledName": "$s9Internals23BaseScrenViewControllerC11viewDidLoadyyF",
+            "moduleName": "Internals",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseScrenViewController",
+                "printedName": "Internals.BaseScrenViewController",
+                "usr": "c:@M@Internals@objc(cs)BaseScrenViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Internals@objc(cs)BaseScrenViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s9Internals23BaseScrenViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Internals",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Internals@objc(cs)BaseScrenViewController",
+        "mangledName": "$s9Internals23BaseScrenViewControllerC",
+        "moduleName": "Internals",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Internals",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CATransform3D",
+        "printedName": "CATransform3D",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "rotate",
+            "printedName": "rotate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CATransform3D",
+                "printedName": "QuartzCore.CATransform3D",
+                "usr": "c:@S@CATransform3D"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So13CATransform3DV9InternalsE6rotateyAB14CoreFoundation7CGFloatVFZ",
+            "mangledName": "$sSo13CATransform3DV9InternalsE6rotateyAB12CoreGraphics7CGFloatVFZ",
+            "moduleName": "Internals",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@S@CATransform3D",
+        "moduleName": "QuartzCore",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSValue",
+                    "printedName": "Foundation.NSValue",
+                    "usr": "c:objc(cs)NSValue"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Collection",
+        "printedName": "Collection",
+        "children": [
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(safe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0.Element?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Index"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:Sl9InternalsE4safe7ElementQzSg5IndexQz_tcip",
+            "mangledName": "$sSl9InternalsE4safe7ElementQzSg5IndexQz_tcip",
+            "moduleName": "Internals",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Collection>",
+            "sugared_genericSig": "<Self where Self : Swift.Collection>",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0.Element?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.Element"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Index"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sl9InternalsE4safe7ElementQzSg5IndexQz_tcig",
+                "mangledName": "$sSl9InternalsE4safe7ElementQzSg5IndexQz_tcig",
+                "moduleName": "Internals",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Collection>",
+                "sugared_genericSig": "<Self where Self : Swift.Collection>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:Sl",
+        "mangledName": "$sSl",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 : Swift.Sequence, τ_0_0.Element == τ_0_0.SubSequence.Element, τ_0_0.Index : Swift.Comparable, τ_0_0.Index == τ_0_0.Indices.Element, τ_0_0.Indices : Swift.Collection, τ_0_0.Indices == τ_0_0.Indices.SubSequence, τ_0_0.SubSequence : Swift.Collection, τ_0_0.SubSequence == τ_0_0.SubSequence.SubSequence, τ_0_0.Indices.Element == τ_0_0.Indices.Index, τ_0_0.Indices.Index == τ_0_0.SubSequence.Index>",
+        "sugared_genericSig": "<Self : Swift.Sequence, Self.Element == Self.SubSequence.Element, Self.Index : Swift.Comparable, Self.Index == Self.Indices.Element, Self.Indices : Swift.Collection, Self.Indices == Self.Indices.SubSequence, Self.SubSequence : Swift.Collection, Self.SubSequence == Self.SubSequence.SubSequence, Self.Indices.Element == Self.Indices.Index, Self.Indices.Index == Self.SubSequence.Index>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/SecureText.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/SecureText.swift",
+      "kind": "IntegerLiteral",
+      "offset": 421,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/SecureText.swift",
+      "kind": "IntegerLiteral",
+      "offset": 427,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/SecureText.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/SecureText.swift",
+      "kind": "IntegerLiteral",
+      "offset": 485,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/SecureText.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/SecureText.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/SecureText.swift",
+      "kind": "IntegerLiteral",
+      "offset": 506,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/Animations\/MoveShapeAnimation.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 10,
+      "value": "\"position\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/DEBUGAnimatedContentScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/DEBUGAnimatedContentScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/DEBUGAnimatedContentScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 504,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/DEBUGAnimatedContentScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 569,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/DEBUGAnimatedContentScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 749,
+      "length": 12,
+      "value": "\"pause.fill\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/DEBUGAnimatedContentScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 927,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/DEBUGAnimatedContentScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 90,
+      "length": 26,
+      "value": "\"Internals.DEBUGAnimatedContentScreen\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 162,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 317,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 369,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 421,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 525,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedContent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 681,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/Finish\/FinishSwiftUIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 143,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Builder\/LevelBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 30,
+      "value": "\"LevelBuilder.CurrentLevelKey\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Builder\/LevelBuilder.swift",
+      "kind": "Array",
+      "offset": 2477,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Builder\/LevelBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2734,
+      "length": 16,
+      "value": "\"empty_password\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedLayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 148,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/AnimatedLayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 191,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/Animations\/RotateShapeAnimation.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 22,
+      "value": "\"transform.rotation.z\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/Animations\/ScaleShapeAnimation.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 17,
+      "value": "\"transform.scale\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/Base\/BaseScreenViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 103,
+      "length": 24,
+      "value": "\"Internals.BaseScreenViewController\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/Base\/BaseScreenViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 878,
+      "length": 23,
+      "value": "\"Internals.BaseScrenViewController\""
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/Helpers\/CAFrameRateRange+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 298,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/Helpers\/CAFrameRateRange+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 313,
+      "length": 5,
+      "value": "120.0"
+    },
+    {
+      "filePath": "\/Users\/kn1kt\/Developer\/Mobius\/Internals\/Internals\/Private\/Screens\/BrokenAnimation\/Helpers\/CAFrameRateRange+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 331,
+      "length": 5,
+      "value": "120.0"
+    }
+  ]
+}

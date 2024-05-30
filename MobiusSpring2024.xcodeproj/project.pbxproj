@@ -16,12 +16,6 @@
 		A7BAF09C2BF4098000A4A177 /* ArinaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAF09B2BF4098000A4A177 /* ArinaScreen.swift */; };
 		B814E3342BF1162B00449E42 /* ScreenViewController_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814E3332BF1162B00449E42 /* ScreenViewController_7.swift */; };
 		F35F82FA2BEEAD45006B39AC /* AnimatedCaptchaContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F82F92BEEAD45006B39AC /* AnimatedCaptchaContentView.swift */; };
-		F35F84352BEEB138006B39AC /* AnyShapeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F84342BEEB138006B39AC /* AnyShapeAnimation.swift */; };
-		F35F84372BEEB14B006B39AC /* ShapePropertyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F84362BEEB14B006B39AC /* ShapePropertyAnimation.swift */; };
-		F35F84392BEEB1E6006B39AC /* ScaleShapeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F84382BEEB1E6006B39AC /* ScaleShapeAnimation.swift */; };
-		F35F843B2BEEB203006B39AC /* CAFrameRateRange+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F843A2BEEB203006B39AC /* CAFrameRateRange+Extensions.swift */; };
-		F35F843F2BEEB334006B39AC /* MoveShapeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F843E2BEEB334006B39AC /* MoveShapeAnimation.swift */; };
-		F35F84412BEEB354006B39AC /* RotateShapeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F84402BEEB354006B39AC /* RotateShapeAnimation.swift */; };
 		F35F86C12BEEC6A6006B39AC /* 8.txt in Resources */ = {isa = PBXBuildFile; fileRef = F35F86B62BEEC6A6006B39AC /* 8.txt */; };
 		F35F86C22BEEC6A6006B39AC /* 3.txt in Resources */ = {isa = PBXBuildFile; fileRef = F35F86B72BEEC6A6006B39AC /* 3.txt */; };
 		F35F86C32BEEC6A6006B39AC /* 0.txt in Resources */ = {isa = PBXBuildFile; fileRef = F35F86B82BEEC6A6006B39AC /* 0.txt */; };
@@ -33,9 +27,6 @@
 		F35F86C92BEEC6A6006B39AC /* 10.txt in Resources */ = {isa = PBXBuildFile; fileRef = F35F86BE2BEEC6A6006B39AC /* 10.txt */; };
 		F35F86CA2BEEC6A6006B39AC /* 9.txt in Resources */ = {isa = PBXBuildFile; fileRef = F35F86BF2BEEC6A6006B39AC /* 9.txt */; };
 		F35F86CB2BEEC6A6006B39AC /* 7.txt in Resources */ = {isa = PBXBuildFile; fileRef = F35F86C02BEEC6A6006B39AC /* 7.txt */; };
-		F35F88062BEEC92D006B39AC /* AnimatedLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F88052BEEC92D006B39AC /* AnimatedLayer.swift */; };
-		F35F88082BEF6F68006B39AC /* AnimatedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F88072BEF6F68006B39AC /* AnimatedContent.swift */; };
-		F36FA2452BDEDEA40060BF8C /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36FA2442BDEDEA40060BF8C /* Collection+Extensions.swift */; };
 		F36FA2492BDEE09D0060BF8C /* ScreenViewController_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36FA2482BDEE09D0060BF8C /* ScreenViewController_4.swift */; };
 		F3CAE3192BBB5B1E0064E9F5 /* MobiusSpring2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3182BBB5B1E0064E9F5 /* MobiusSpring2024App.swift */; };
 		F3CAE31B2BBB5B1E0064E9F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE31A2BBB5B1E0064E9F5 /* ContentView.swift */; };
@@ -44,18 +35,12 @@
 		F3CAE32A2BBB5B200064E9F5 /* MobiusSpring2024Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3292BBB5B200064E9F5 /* MobiusSpring2024Tests.swift */; };
 		F3CAE3342BBB5B200064E9F5 /* MobiusSpring2024UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3332BBB5B200064E9F5 /* MobiusSpring2024UITests.swift */; };
 		F3CAE3362BBB5B200064E9F5 /* MobiusSpring2024UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3352BBB5B200064E9F5 /* MobiusSpring2024UITestsLaunchTests.swift */; };
-		F3CAE3442BBB5B490064E9F5 /* TapMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3432BBB5B490064E9F5 /* TapMeButton.swift */; };
-		F3CAE3492BBB5BD20064E9F5 /* LevelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3482BBB5BD20064E9F5 /* LevelBuilder.swift */; };
-		F3CAE34C2BBB5CF20064E9F5 /* BaseScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE34B2BBB5CF20064E9F5 /* BaseScreenViewController.swift */; };
-		F3CAE3532BBB61150064E9F5 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3522BBB61150064E9F5 /* UIViewController+Extensions.swift */; };
 		F3CAE3572BBB644D0064E9F5 /* ScreenViewController_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE3562BBB644D0064E9F5 /* ScreenViewController_1.swift */; };
-		F3CAE35D2BBB657F0064E9F5 /* StartSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE35C2BBB657F0064E9F5 /* StartSwiftUIView.swift */; };
-		F3CAE35F2BBB67020064E9F5 /* FinishSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE35E2BBB67020064E9F5 /* FinishSwiftUIView.swift */; };
 		F3CAE4912BBC4D880064E9F5 /* ScreenViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE4902BBC4D880064E9F5 /* ScreenViewController_2.swift */; };
 		F3CAE4942BBC4DA40064E9F5 /* ScreenViewController_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CAE4932BBC4DA40064E9F5 /* ScreenViewController_3.swift */; };
-		F3CF20862C091049008DD91D /* SecureText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CF20852C091049008DD91D /* SecureText.swift */; };
+		F3CF20E92C09475A008DD91D /* Internals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CF20E72C094723008DD91D /* Internals.framework */; };
+		F3CF20EA2C09475A008DD91D /* Internals.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3CF20E72C094723008DD91D /* Internals.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F3F5EED82BFA9671002626DC /* AnimatedContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5EED72BFA9671002626DC /* AnimatedContentScreen.swift */; };
-		F3F5EEDB2BFAB2DB002626DC /* DEBUGAnimatedContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5EEDA2BFAB2DB002626DC /* DEBUGAnimatedContentScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +60,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F3CF20D12C093D96008DD91D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F3CF20EA2C09475A008DD91D /* Internals.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0EE1DE1E2BF507390075C2EF /* ScreenViewController_9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_9.swift; sourceTree = "<group>"; };
 		0EE1DE202BF50D010075C2EF /* PatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternView.swift; sourceTree = "<group>"; };
@@ -85,12 +84,6 @@
 		A7BAF09B2BF4098000A4A177 /* ArinaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArinaScreen.swift; sourceTree = "<group>"; };
 		B814E3332BF1162B00449E42 /* ScreenViewController_7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_7.swift; sourceTree = "<group>"; };
 		F35F82F92BEEAD45006B39AC /* AnimatedCaptchaContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCaptchaContentView.swift; sourceTree = "<group>"; };
-		F35F84342BEEB138006B39AC /* AnyShapeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyShapeAnimation.swift; sourceTree = "<group>"; };
-		F35F84362BEEB14B006B39AC /* ShapePropertyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapePropertyAnimation.swift; sourceTree = "<group>"; };
-		F35F84382BEEB1E6006B39AC /* ScaleShapeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleShapeAnimation.swift; sourceTree = "<group>"; };
-		F35F843A2BEEB203006B39AC /* CAFrameRateRange+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAFrameRateRange+Extensions.swift"; sourceTree = "<group>"; };
-		F35F843E2BEEB334006B39AC /* MoveShapeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveShapeAnimation.swift; sourceTree = "<group>"; };
-		F35F84402BEEB354006B39AC /* RotateShapeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateShapeAnimation.swift; sourceTree = "<group>"; };
 		F35F86B62BEEC6A6006B39AC /* 8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 8.txt; sourceTree = "<group>"; };
 		F35F86B72BEEC6A6006B39AC /* 3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
 		F35F86B82BEEC6A6006B39AC /* 0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0.txt; sourceTree = "<group>"; };
@@ -102,9 +95,6 @@
 		F35F86BE2BEEC6A6006B39AC /* 10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10.txt; sourceTree = "<group>"; };
 		F35F86BF2BEEC6A6006B39AC /* 9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9.txt; sourceTree = "<group>"; };
 		F35F86C02BEEC6A6006B39AC /* 7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 7.txt; sourceTree = "<group>"; };
-		F35F88052BEEC92D006B39AC /* AnimatedLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLayer.swift; sourceTree = "<group>"; };
-		F35F88072BEF6F68006B39AC /* AnimatedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedContent.swift; sourceTree = "<group>"; };
-		F36FA2442BDEDEA40060BF8C /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
 		F36FA2482BDEE09D0060BF8C /* ScreenViewController_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_4.swift; sourceTree = "<group>"; };
 		F3CAE3152BBB5B1E0064E9F5 /* MobiusSpring2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiusSpring2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CAE3182BBB5B1E0064E9F5 /* MobiusSpring2024App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusSpring2024App.swift; sourceTree = "<group>"; };
@@ -116,18 +106,11 @@
 		F3CAE32F2BBB5B200064E9F5 /* MobiusSpring2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiusSpring2024UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CAE3332BBB5B200064E9F5 /* MobiusSpring2024UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusSpring2024UITests.swift; sourceTree = "<group>"; };
 		F3CAE3352BBB5B200064E9F5 /* MobiusSpring2024UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusSpring2024UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F3CAE3432BBB5B490064E9F5 /* TapMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMeButton.swift; sourceTree = "<group>"; };
-		F3CAE3482BBB5BD20064E9F5 /* LevelBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBuilder.swift; sourceTree = "<group>"; };
-		F3CAE34B2BBB5CF20064E9F5 /* BaseScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreenViewController.swift; sourceTree = "<group>"; };
-		F3CAE3522BBB61150064E9F5 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		F3CAE3562BBB644D0064E9F5 /* ScreenViewController_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_1.swift; sourceTree = "<group>"; };
-		F3CAE35C2BBB657F0064E9F5 /* StartSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSwiftUIView.swift; sourceTree = "<group>"; };
-		F3CAE35E2BBB67020064E9F5 /* FinishSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishSwiftUIView.swift; sourceTree = "<group>"; };
 		F3CAE4902BBC4D880064E9F5 /* ScreenViewController_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_2.swift; sourceTree = "<group>"; };
 		F3CAE4932BBC4DA40064E9F5 /* ScreenViewController_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewController_3.swift; sourceTree = "<group>"; };
-		F3CF20852C091049008DD91D /* SecureText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureText.swift; sourceTree = "<group>"; };
+		F3CF20E72C094723008DD91D /* Internals.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Internals.framework; sourceTree = "<group>"; };
 		F3F5EED72BFA9671002626DC /* AnimatedContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedContentScreen.swift; sourceTree = "<group>"; };
-		F3F5EEDA2BFAB2DB002626DC /* DEBUGAnimatedContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEBUGAnimatedContentScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CF20E92C09475A008DD91D /* Internals.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,41 +233,11 @@
 		F35F82F82BEEAD2B006B39AC /* 5 */ = {
 			isa = PBXGroup;
 			children = (
-				F35F843D2BEEB242006B39AC /* Animations */,
-				F35F843C2BEEB23C006B39AC /* Helpers */,
+				F35F86B52BEEC694006B39AC /* Data */,
 				F35F82F92BEEAD45006B39AC /* AnimatedCaptchaContentView.swift */,
 				F3F5EED72BFA9671002626DC /* AnimatedContentScreen.swift */,
 			);
 			path = 5;
-			sourceTree = "<group>";
-		};
-		F35F843C2BEEB23C006B39AC /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				F35F843A2BEEB203006B39AC /* CAFrameRateRange+Extensions.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		F35F843D2BEEB242006B39AC /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				F35F86B52BEEC694006B39AC /* Data */,
-				F35F84422BEEB36F006B39AC /* Protocols */,
-				F35F843E2BEEB334006B39AC /* MoveShapeAnimation.swift */,
-				F35F84402BEEB354006B39AC /* RotateShapeAnimation.swift */,
-				F35F84382BEEB1E6006B39AC /* ScaleShapeAnimation.swift */,
-			);
-			path = Animations;
-			sourceTree = "<group>";
-		};
-		F35F84422BEEB36F006B39AC /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				F35F84362BEEB14B006B39AC /* ShapePropertyAnimation.swift */,
-				F35F84342BEEB138006B39AC /* AnyShapeAnimation.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		F35F86B52BEEC694006B39AC /* Data */ = {
@@ -346,10 +300,9 @@
 		F3CAE3172BBB5B1E0064E9F5 /* MobiusSpring2024 */ = {
 			isa = PBXGroup;
 			children = (
+				F3CF20E72C094723008DD91D /* Internals.framework */,
+				F3CF20E42C09452E008DD91D /* Private */,
 				F3CAE3582BBB65280064E9F5 /* Public */,
-				F3CAE3422BBB5B3C0064E9F5 /* Private */,
-				F3CAE3182BBB5B1E0064E9F5 /* MobiusSpring2024App.swift */,
-				F3CAE31A2BBB5B1E0064E9F5 /* ContentView.swift */,
 				F3CAE31C2BBB5B200064E9F5 /* Assets.xcassets */,
 				F3CAE31E2BBB5B200064E9F5 /* Preview Content */,
 			);
@@ -381,62 +334,6 @@
 			path = MobiusSpring2024UITests;
 			sourceTree = "<group>";
 		};
-		F3CAE3422BBB5B3C0064E9F5 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				F3CAE3512BBB61030064E9F5 /* Extensions */,
-				F3CAE3472BBB5BC30064E9F5 /* Builder */,
-				F3CAE3462BBB5BC00064E9F5 /* Screens */,
-				F3CAE3452BBB5BBC0064E9F5 /* Button */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		F3CAE3452BBB5BBC0064E9F5 /* Button */ = {
-			isa = PBXGroup;
-			children = (
-				F3CAE3432BBB5B490064E9F5 /* TapMeButton.swift */,
-			);
-			path = Button;
-			sourceTree = "<group>";
-		};
-		F3CAE3462BBB5BC00064E9F5 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				F3F5EED92BFAB2CB002626DC /* BrokenAnimation */,
-				F3CAE35B2BBB65710064E9F5 /* Finish */,
-				F3CAE35A2BBB656E0064E9F5 /* Start */,
-				F3CAE3542BBB642E0064E9F5 /* Base */,
-				F3CF20852C091049008DD91D /* SecureText.swift */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		F3CAE3472BBB5BC30064E9F5 /* Builder */ = {
-			isa = PBXGroup;
-			children = (
-				F3CAE3482BBB5BD20064E9F5 /* LevelBuilder.swift */,
-			);
-			path = Builder;
-			sourceTree = "<group>";
-		};
-		F3CAE3512BBB61030064E9F5 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				F3CAE3522BBB61150064E9F5 /* UIViewController+Extensions.swift */,
-				F36FA2442BDEDEA40060BF8C /* Collection+Extensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		F3CAE3542BBB642E0064E9F5 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				F3CAE34B2BBB5CF20064E9F5 /* BaseScreenViewController.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		F3CAE3582BBB65280064E9F5 /* Public */ = {
 			isa = PBXGroup;
 			children = (
@@ -459,22 +356,6 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		F3CAE35A2BBB656E0064E9F5 /* Start */ = {
-			isa = PBXGroup;
-			children = (
-				F3CAE35C2BBB657F0064E9F5 /* StartSwiftUIView.swift */,
-			);
-			path = Start;
-			sourceTree = "<group>";
-		};
-		F3CAE35B2BBB65710064E9F5 /* Finish */ = {
-			isa = PBXGroup;
-			children = (
-				F3CAE35E2BBB67020064E9F5 /* FinishSwiftUIView.swift */,
-			);
-			path = Finish;
-			sourceTree = "<group>";
-		};
 		F3CAE48E2BBC49410064E9F5 /* 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,14 +372,13 @@
 			path = 2;
 			sourceTree = "<group>";
 		};
-		F3F5EED92BFAB2CB002626DC /* BrokenAnimation */ = {
+		F3CF20E42C09452E008DD91D /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				F35F88052BEEC92D006B39AC /* AnimatedLayer.swift */,
-				F35F88072BEF6F68006B39AC /* AnimatedContent.swift */,
-				F3F5EEDA2BFAB2DB002626DC /* DEBUGAnimatedContentScreen.swift */,
+				F3CAE3182BBB5B1E0064E9F5 /* MobiusSpring2024App.swift */,
+				F3CAE31A2BBB5B1E0064E9F5 /* ContentView.swift */,
 			);
-			path = BrokenAnimation;
+			path = Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -511,6 +391,7 @@
 				F3CAE3112BBB5B1E0064E9F5 /* Sources */,
 				F3CAE3122BBB5B1E0064E9F5 /* Frameworks */,
 				F3CAE3132BBB5B1E0064E9F5 /* Resources */,
+				F3CF20D12C093D96008DD91D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -642,38 +523,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3CF20862C091049008DD91D /* SecureText.swift in Sources */,
-				F3F5EEDB2BFAB2DB002626DC /* DEBUGAnimatedContentScreen.swift in Sources */,
-				F35F88062BEEC92D006B39AC /* AnimatedLayer.swift in Sources */,
-				F3CAE3492BBB5BD20064E9F5 /* LevelBuilder.swift in Sources */,
 				F3F5EED82BFA9671002626DC /* AnimatedContentScreen.swift in Sources */,
-				F35F84372BEEB14B006B39AC /* ShapePropertyAnimation.swift in Sources */,
-				F35F84392BEEB1E6006B39AC /* ScaleShapeAnimation.swift in Sources */,
 				2F8E3FD62BCEB05400081277 /* BestIosQuestion.swift in Sources */,
 				B814E3342BF1162B00449E42 /* ScreenViewController_7.swift in Sources */,
 				F3CAE3572BBB644D0064E9F5 /* ScreenViewController_1.swift in Sources */,
-				F35F84412BEEB354006B39AC /* RotateShapeAnimation.swift in Sources */,
 				F3CAE4942BBC4DA40064E9F5 /* ScreenViewController_3.swift in Sources */,
-				F3CAE35F2BBB67020064E9F5 /* FinishSwiftUIView.swift in Sources */,
-				F35F843F2BEEB334006B39AC /* MoveShapeAnimation.swift in Sources */,
 				F3CAE31B2BBB5B1E0064E9F5 /* ContentView.swift in Sources */,
 				F3CAE3192BBB5B1E0064E9F5 /* MobiusSpring2024App.swift in Sources */,
-				F35F88082BEF6F68006B39AC /* AnimatedContent.swift in Sources */,
-				F35F843B2BEEB203006B39AC /* CAFrameRateRange+Extensions.swift in Sources */,
 				2904B1612BEA84DD00953EEE /* Screen6View.swift in Sources */,
 				F35F82FA2BEEAD45006B39AC /* AnimatedCaptchaContentView.swift in Sources */,
 				F3CAE4912BBC4D880064E9F5 /* ScreenViewController_2.swift in Sources */,
 				0EE1DE1F2BF507390075C2EF /* ScreenViewController_9.swift in Sources */,
-				F3CAE3532BBB61150064E9F5 /* UIViewController+Extensions.swift in Sources */,
 				F36FA2492BDEE09D0060BF8C /* ScreenViewController_4.swift in Sources */,
-				F3CAE35D2BBB657F0064E9F5 /* StartSwiftUIView.swift in Sources */,
-				F3CAE34C2BBB5CF20064E9F5 /* BaseScreenViewController.swift in Sources */,
 				2F5B21E22BC1E109000F4648 /* BashScreenViewController_4.swift in Sources */,
 				2F5B21EA2BC1E8EE000F4648 /* BashScreenViewController_5.swift in Sources */,
 				A7BAF09C2BF4098000A4A177 /* ArinaScreen.swift in Sources */,
-				F35F84352BEEB138006B39AC /* AnyShapeAnimation.swift in Sources */,
-				F3CAE3442BBB5B490064E9F5 /* TapMeButton.swift in Sources */,
-				F36FA2452BDEDEA40060BF8C /* Collection+Extensions.swift in Sources */,
 				0EE1DE212BF50D010075C2EF /* PatternView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -840,6 +704,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MobiusSpring2024/Preview Content\"";
 				DEVELOPMENT_TEAM = 8ZP68R2DW2;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobiusSpring2024",
+					"$(PROJECT_DIR)/MobiusSpring2024/Private",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -870,6 +739,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MobiusSpring2024/Preview Content\"";
 				DEVELOPMENT_TEAM = 8ZP68R2DW2;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobiusSpring2024",
+					"$(PROJECT_DIR)/MobiusSpring2024/Private",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

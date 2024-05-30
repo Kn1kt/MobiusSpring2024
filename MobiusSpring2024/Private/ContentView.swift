@@ -4,6 +4,7 @@
 //
 
 import SwiftUI
+import Internals
 
 struct ContentView: View {
     @State private var state = LevelBuilder.shared
@@ -17,7 +18,7 @@ struct ContentView: View {
                     .toolbar {
                         ToolbarItem(placement: .cancellationAction) {
                             Button("Reset", systemImage: "arrow.circlepath", role: .cancel) {
-                                state.currentLevel = 0
+                                LevelBuilder.makeAction(for: 0)()
                             }
                         }
                     }

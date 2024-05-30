@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import Internals
 
 final class ScreenViewController_2: BaseScreenViewController {
     override func viewDidLoad() {

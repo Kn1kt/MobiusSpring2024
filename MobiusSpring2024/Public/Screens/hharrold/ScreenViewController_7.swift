@@ -5,6 +5,7 @@
 
 import Foundation
 import UIKit
+import Internals
 
 final class ScreenViewController_7: BaseScreenViewController {
     private lazy var titleView: UILabel = {

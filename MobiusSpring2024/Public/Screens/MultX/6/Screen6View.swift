@@ -4,6 +4,7 @@
 //
 
 import SwiftUI
+import Internals
 
 struct SimpleButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {

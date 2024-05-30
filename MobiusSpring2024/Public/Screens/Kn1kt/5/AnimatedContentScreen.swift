@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import Internals
 
 final class AnimatedContentScreen: DEBUGAnimatedContentScreen {
     private var beginTime: CFTimeInterval?

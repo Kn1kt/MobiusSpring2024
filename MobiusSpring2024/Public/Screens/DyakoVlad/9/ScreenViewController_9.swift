@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import Internals
 
 final class ScreenViewController_9: BaseScreenViewController {
     private let rightPattern = [1, 4, 7, 8, 9, 6, 3]

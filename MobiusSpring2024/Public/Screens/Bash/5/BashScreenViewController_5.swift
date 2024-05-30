@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import Internals
 
 final class BashScreenViewController_5: BaseScrenViewController {
     override func viewDidLoad() {

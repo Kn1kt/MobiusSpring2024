@@ -1,0 +1,150 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Internals
+import CryptoKit
+import Foundation
+@_exported import Internals
+import Observation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct SecureText : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public init(_ data: Foundation.Data)
+  public typealias Body = @_opaqueReturnTypeOf("$s9Internals10SecureTextV4bodyQrvp", 0) __
+}
+
+extension Internals.AnyShapeAnimation {
+  public static func move(point: CoreFoundation.CGPoint, duration: CoreFoundation.CFTimeInterval, repeated: Swift.Bool) -> Internals.AnyShapeAnimation
+}
+@objc @_Concurrency.MainActor(unsafe) open class DEBUGAnimatedContentScreen : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public let animatedContent: Internals.AnimatedContent
+  @_Concurrency.MainActor(unsafe) final public var animatedLayer: Internals.AnimatedLayer?
+  @_Concurrency.MainActor(unsafe) public init(animatedContent: Internals.AnimatedContent)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) open func setupAnimatedLayer()
+  @objc deinit
+}
+public struct AnimatedContent : Swift.Equatable {
+  public static let zero: Internals.AnimatedContent
+  public static let one: Internals.AnimatedContent
+  public static let two: Internals.AnimatedContent
+  public static let three: Internals.AnimatedContent
+  public static let four: Internals.AnimatedContent
+  public static let five: Internals.AnimatedContent
+  public static let six: Internals.AnimatedContent
+  public static let seven: Internals.AnimatedContent
+  public static let eight: Internals.AnimatedContent
+  public static let nine: Internals.AnimatedContent
+  public static let ten: Internals.AnimatedContent
+  public let boundsSize: CoreFoundation.CGSize
+  public let shapes: [Internals.AnimatedContent.AnimatedShape]
+  public init(strings: [Swift.String])
+  public static func == (lhs: Internals.AnimatedContent, rhs: Internals.AnimatedContent) -> Swift.Bool
+}
+extension Internals.AnimatedContent {
+  public struct AnimatedShape {
+    public let position: CoreFoundation.CGPoint
+    public let boundsSize: CoreFoundation.CGSize
+    public let cornerRadius: CoreFoundation.CGFloat
+    public let rotationAngle: CoreFoundation.CGFloat
+    public let color: UIKit.UIColor
+    public let animations: Swift.Set<Internals.AnyShapeAnimation>
+    public init(shape: Swift.String, animations: [Swift.String])
+  }
+}
+public protocol ShapePropertyAnimation {
+  static var keyPath: Swift.String { get }
+}
+public protocol ShapeAnimation {
+  var body: QuartzCore.CAAnimation { get }
+}
+public struct AnyShapeAnimation : Internals.ShapeAnimation {
+  public typealias Animation = Internals.ShapeAnimation & Internals.ShapePropertyAnimation
+  public var body: QuartzCore.CAAnimation {
+    get
+  }
+  public init(animation: some Animation)
+}
+extension Internals.AnyShapeAnimation : Swift.Hashable {
+  public static func == (lhs: Internals.AnyShapeAnimation, rhs: Internals.AnyShapeAnimation) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+
+@_hasMissingDesignatedInitializers final public class LevelBuilder {
+  public static let shared: Internals.LevelBuilder
+  final public var currentLevel: Swift.Int {
+    get
+  }
+  final public func buildView(for level: Swift.Int) -> some SwiftUI.View
+  
+  @objc deinit
+}
+extension Internals.LevelBuilder {
+  public static var levels: [UIKit.UIViewController]
+  public static func makeAction(for level: Swift.Int) -> () -> Swift.Void
+}
+extension Internals.LevelBuilder {
+  public static func generatePassword() -> Foundation.Data
+  public static func checkPassword(password: Swift.String) -> Swift.Bool
+  public static func tryPassword(password: Swift.String)
+}
+extension Internals.LevelBuilder {
+  public static func validateAnimation(_ animation: Internals.AnimatedContent, text: Swift.String)
+}
+extension Internals.LevelBuilder : Observation.Observable {
+}
+@objc @_inheritsConvenienceInitializers final public class AnimatedLayer : QuartzCore.CALayer {
+  @objc override final public func action(forKey _: Swift.String) -> (any QuartzCore.CAAction)?
+  final public func pauseAnimations()
+  final public func resumeAnimations()
+  @objc override dynamic public init()
+  @objc override dynamic public init(layer: Any)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension Internals.AnyShapeAnimation {
+  public static func rotate(angle: CoreFoundation.CGFloat, duration: CoreFoundation.CFTimeInterval, repeated: Swift.Bool) -> Internals.AnyShapeAnimation
+}
+extension QuartzCore.CATransform3D {
+  public static func rotate(_ angle: CoreFoundation.CGFloat) -> QuartzCore.CATransform3D
+}
+
+extension Internals.AnyShapeAnimation {
+  public static func scale(scale: CoreFoundation.CGFloat, duration: CoreFoundation.CFTimeInterval, repeated: Swift.Bool) -> Internals.AnyShapeAnimation
+}
+@objc @_Concurrency.MainActor(unsafe) open class BaseScreenViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var tapMeButton: UIKit.UIButton {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public init(action: @escaping () -> Swift.Void)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @objc deinit
+}
+@objc @_Concurrency.MainActor(unsafe) open class BaseScrenViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var tapMeButton: UIKit.UIButton {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public init(action: @escaping () -> Swift.Void)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @objc deinit
+}
+extension Swift.Collection {
+  public subscript(safe index: Self.Index) -> Self.Element? {
+    get
+  }
+}

@@ -4,6 +4,7 @@
 //
 
 import UIKit
+import Internals
 
 final class ScreenViewController_3: BaseScreenViewController {
     private let levelTitle: UILabel = {

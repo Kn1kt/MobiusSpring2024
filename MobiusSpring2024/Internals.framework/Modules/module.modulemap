@@ -1,0 +1,6 @@
+framework module Internals {
+  umbrella header "Internals.h"
+  export *
+
+  module * { export * }
+}

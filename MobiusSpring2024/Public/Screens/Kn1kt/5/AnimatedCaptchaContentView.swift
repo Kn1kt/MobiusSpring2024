@@ -5,6 +5,7 @@
 
 import UIKit
 import SwiftUI
+import Internals
 
 struct AnimatedCaptchaContentView: View {
     let animatedContent: AnimatedContent
