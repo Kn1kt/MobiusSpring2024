@@ -70,13 +70,13 @@ struct KeyPad: View {
     var body: some View {
         VStack {
             KeyPadRow(keys: ["1", "2", "3"])
-//                .offset(y: Constants.firstRowOffset)
+                .offset(y: Constants.firstRowOffset)
             KeyPadRow(keys: ["4", "5", "6"])
-//                .offset(y: Constants.secondRowOffset)
+                .offset(y: Constants.secondRowOffset)
             KeyPadRow(keys: ["7", "8", "9"])
-//                .offset(y: Constants.thirdRowOffset)
+                .offset(y: Constants.thirdRowOffset)
             KeyPadRow(keys: [".", "0", "⌫"])
-//                .offset(y: Constants.fourthRowOffset)
+                .offset(y: Constants.fourthRowOffset)
         }
         .environment(\.keyPadButtonAction, self.keyWasPressed(_:))
     }
